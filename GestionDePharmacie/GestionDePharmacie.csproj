@@ -122,6 +122,24 @@
     <Compile Include="Formulaires Medicaments\Supprimer Medicament.Designer.cs">
       <DependentUpon>Supprimer Medicament.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Vendeur\Ajouter Vendeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Ajouter Vendeur.Designer.cs">
+      <DependentUpon>Ajouter Vendeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Modifier Vendeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Modifier Vendeur.Designer.cs">
+      <DependentUpon>Modifier Vendeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Supprimer Vendeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Supprimer Vendeur.Designer.cs">
+      <DependentUpon>Supprimer Vendeur.cs</DependentUpon>
+    </Compile>
     <Compile Include="MYDBC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -154,6 +172,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Medicaments\Supprimer Medicament.resx">
       <DependentUpon>Supprimer Medicament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Vendeur\Ajouter Vendeur.resx">
+      <DependentUpon>Ajouter Vendeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Vendeur\Modifier Vendeur.resx">
+      <DependentUpon>Modifier Vendeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Vendeur\Supprimer Vendeur.resx">
+      <DependentUpon>Supprimer Vendeur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

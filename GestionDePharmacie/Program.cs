@@ -1,6 +1,7 @@
 ﻿using GestionDePharmacie.Formulaires_Client;
 using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Medicaments;
+using GestionDePharmacie.Formulaires_Vendeur;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Supprimer_Medecin());
+            Application.Run(new Supprimer_Vendeur());
         }
 
         private static object Medicament()
