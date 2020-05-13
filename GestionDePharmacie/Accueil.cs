@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace GestionDePharmacie
 {
-    public partial class Form1 : Form
+    public partial class Accueil : Form
     {
-        public Form1()
+        public Accueil()
         {
             InitializeComponent();
         }

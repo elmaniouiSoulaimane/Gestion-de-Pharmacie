@@ -80,22 +80,22 @@
     <Compile Include="Formulaires Client\Supprimer Client.Designer.cs">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulaires Medecin\Ajouter Medecin.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulaires Medecin\Ajouter Medecin.Designer.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.Designer.cs">
       <DependentUpon>Ajouter Medecin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulaires Medecin\Modifier Medecin.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Modifier Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulaires Medecin\Modifier Medecin.Designer.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Modifier Medecin.Designer.cs">
       <DependentUpon>Modifier Medecin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulaires Medecin\Supprimer Medecin.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Supprimer Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulaires Medecin\Supprimer Medecin.Designer.cs">
+    <Compile Include="Medecin\Formulaires Medecin\Supprimer Medecin.Designer.cs">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulaires Medicaments\Ajouter Medicament.cs">
@@ -104,11 +104,11 @@
     <Compile Include="Formulaires Medicaments\Ajouter Medicament.Designer.cs">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Accueil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Accueil.Designer.cs">
+      <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulaires Medicaments\Modifier Medicament.cs">
       <SubType>Form</SubType>
@@ -140,6 +140,12 @@
     <Compile Include="Formulaires Vendeur\Supprimer Vendeur.Designer.cs">
       <DependentUpon>Supprimer Vendeur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="MYDBC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -152,20 +158,20 @@
     <EmbeddedResource Include="Formulaires Client\Supprimer Client.resx">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulaires Medecin\Ajouter Medecin.resx">
+    <EmbeddedResource Include="Medecin\Formulaires Medecin\Ajouter Medecin.resx">
       <DependentUpon>Ajouter Medecin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulaires Medecin\Modifier Medecin.resx">
+    <EmbeddedResource Include="Medecin\Formulaires Medecin\Modifier Medecin.resx">
       <DependentUpon>Modifier Medecin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulaires Medecin\Supprimer Medecin.resx">
+    <EmbeddedResource Include="Medecin\Formulaires Medecin\Supprimer Medecin.resx">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Medicaments\Ajouter Medicament.resx">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Medicaments\Modifier Medicament.resx">
       <DependentUpon>Modifier Medicament.cs</DependentUpon>
@@ -204,6 +210,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Medecin\Images\ajouter\character-wearing-protection-holding-covid-19-test_23-2148537664.jpg" />
+    <Content Include="Medecin\Images\Modifier-Supprimer\collection-different-equipped-pharmacists_23-2148528214.jpg" />
+    <Content Include="Medecin\Images\Modifier-Supprimer\doctors-professional-hospital-staff_23-2148497323.jpg" />
+    <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
+    <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
+    <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
