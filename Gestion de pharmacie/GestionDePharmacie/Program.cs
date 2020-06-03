@@ -20,7 +20,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Supprimer_Vendeur());
+            Application.Run(new Login_Form());
         }
 
         private static object Medicament()

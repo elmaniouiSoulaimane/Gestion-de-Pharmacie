@@ -103,9 +103,51 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap medical_word_tiny_cartoon_doctors_flat_banner_81522_4192 {
+            get {
+                object obj = ResourceManager.GetObject("medical-word-tiny-cartoon-doctors-flat-banner_81522-4192", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mix_race_doctors_pharmacists_team_standing_pharmacy_counter_modern_drugstore_interior_medicine_healthcare_concept_horizontal_portrait_48369_24458 {
+            get {
+                object obj = ResourceManager.GetObject("mix-race-doctors-pharmacists-team-standing-pharmacy-counter-modern-drugstore-inte" +
+                        "rior-medicine-healthcare-concept-horizontal-portrait_48369-24458", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap online_doctor_with_computer_23_2148525681 {
             get {
                 object obj = ResourceManager.GetObject("online-doctor-with-computer_23-2148525681", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap people_buying_medical_products_modern_drugstore_front_view_pharmacy_store_building_exterior_medicine_healthcare_concept_horizontal_full_length_48369_24825 {
+            get {
+                object obj = ResourceManager.GetObject("people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-buildin" +
+                        "g-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pharmacy_with_doctor_nurse_counter_36082_543 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacy-with-doctor-nurse-counter_36082-543", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

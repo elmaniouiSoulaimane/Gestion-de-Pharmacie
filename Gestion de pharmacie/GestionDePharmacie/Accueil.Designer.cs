@@ -30,23 +30,23 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gererVotreClientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gererVotreMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gererVotreVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gererLesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gererVotreMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gererVotreVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gererLesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             this.factureToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(777, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,48 +74,6 @@
             this.gererVotreClientsToolStripMenuItem.Name = "gererVotreClientsToolStripMenuItem";
             this.gererVotreClientsToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
             this.gererVotreClientsToolStripMenuItem.Text = "Gerer votre Clients";
-            // 
-            // gererVotreMedecinToolStripMenuItem
-            // 
-            this.gererVotreMedecinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nouveauMedecinToolStripMenuItem,
-            this.modifierLesInformationsDunMedecinToolStripMenuItem,
-            this.supprimerUnMedecinToolStripMenuItem});
-            this.gererVotreMedecinToolStripMenuItem.Name = "gererVotreMedecinToolStripMenuItem";
-            this.gererVotreMedecinToolStripMenuItem.Size = new System.Drawing.Size(131, 20);
-            this.gererVotreMedecinToolStripMenuItem.Text = "Gerer votre Medecins";
-            // 
-            // gererVotreVendeurToolStripMenuItem
-            // 
-            this.gererVotreVendeurToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nouveauVendeurToolStripMenuItem,
-            this.modifierLesInformationsDunVendeurToolStripMenuItem,
-            this.supprimerUnVendeurToolStripMenuItem});
-            this.gererVotreVendeurToolStripMenuItem.Name = "gererVotreVendeurToolStripMenuItem";
-            this.gererVotreVendeurToolStripMenuItem.Size = new System.Drawing.Size(128, 20);
-            this.gererVotreVendeurToolStripMenuItem.Text = "Gerer votre Vendeurs";
-            // 
-            // gererLesMedicamentsToolStripMenuItem
-            // 
-            this.gererLesMedicamentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nouveauMedicamentToolStripMenuItem,
-            this.modifierLesInfrmationsDunMedicamentToolStripMenuItem,
-            this.supprimerMedicamentToolStripMenuItem});
-            this.gererLesMedicamentsToolStripMenuItem.Name = "gererLesMedicamentsToolStripMenuItem";
-            this.gererLesMedicamentsToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
-            this.gererLesMedicamentsToolStripMenuItem.Text = "Gerer les Medicaments";
-            // 
-            // ordonnanceToolStripMenuItem
-            // 
-            this.ordonnanceToolStripMenuItem.Name = "ordonnanceToolStripMenuItem";
-            this.ordonnanceToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
-            this.ordonnanceToolStripMenuItem.Text = "Ordonnance";
-            // 
-            // factureToolStripMenuItem
-            // 
-            this.factureToolStripMenuItem.Name = "factureToolStripMenuItem";
-            this.factureToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.factureToolStripMenuItem.Text = "Facture";
             // 
             // nouveauClientToolStripMenuItem
             // 
@@ -135,6 +93,16 @@
             this.supprimerUnClientToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
             this.supprimerUnClientToolStripMenuItem.Text = "Supprimer un Client";
             // 
+            // gererVotreMedecinToolStripMenuItem
+            // 
+            this.gererVotreMedecinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nouveauMedecinToolStripMenuItem,
+            this.modifierLesInformationsDunMedecinToolStripMenuItem,
+            this.supprimerUnMedecinToolStripMenuItem});
+            this.gererVotreMedecinToolStripMenuItem.Name = "gererVotreMedecinToolStripMenuItem";
+            this.gererVotreMedecinToolStripMenuItem.Size = new System.Drawing.Size(131, 20);
+            this.gererVotreMedecinToolStripMenuItem.Text = "Gerer votre Medecins";
+            // 
             // nouveauMedecinToolStripMenuItem
             // 
             this.nouveauMedecinToolStripMenuItem.Name = "nouveauMedecinToolStripMenuItem";
@@ -152,6 +120,16 @@
             this.supprimerUnMedecinToolStripMenuItem.Name = "supprimerUnMedecinToolStripMenuItem";
             this.supprimerUnMedecinToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.supprimerUnMedecinToolStripMenuItem.Text = "Supprimer un Medecin";
+            // 
+            // gererVotreVendeurToolStripMenuItem
+            // 
+            this.gererVotreVendeurToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nouveauVendeurToolStripMenuItem,
+            this.modifierLesInformationsDunVendeurToolStripMenuItem,
+            this.supprimerUnVendeurToolStripMenuItem});
+            this.gererVotreVendeurToolStripMenuItem.Name = "gererVotreVendeurToolStripMenuItem";
+            this.gererVotreVendeurToolStripMenuItem.Size = new System.Drawing.Size(128, 20);
+            this.gererVotreVendeurToolStripMenuItem.Text = "Gerer votre Vendeurs";
             // 
             // nouveauVendeurToolStripMenuItem
             // 
@@ -171,6 +149,16 @@
             this.supprimerUnVendeurToolStripMenuItem.Size = new System.Drawing.Size(280, 22);
             this.supprimerUnVendeurToolStripMenuItem.Text = "Supprimer un Vendeur";
             // 
+            // gererLesMedicamentsToolStripMenuItem
+            // 
+            this.gererLesMedicamentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nouveauMedicamentToolStripMenuItem,
+            this.modifierLesInfrmationsDunMedicamentToolStripMenuItem,
+            this.supprimerMedicamentToolStripMenuItem});
+            this.gererLesMedicamentsToolStripMenuItem.Name = "gererLesMedicamentsToolStripMenuItem";
+            this.gererLesMedicamentsToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
+            this.gererLesMedicamentsToolStripMenuItem.Text = "Gerer les Medicaments";
+            // 
             // nouveauMedicamentToolStripMenuItem
             // 
             this.nouveauMedicamentToolStripMenuItem.Name = "nouveauMedicamentToolStripMenuItem";
@@ -189,11 +177,25 @@
             this.supprimerMedicamentToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.supprimerMedicamentToolStripMenuItem.Text = "Supprimer Medicament";
             // 
+            // ordonnanceToolStripMenuItem
+            // 
+            this.ordonnanceToolStripMenuItem.Name = "ordonnanceToolStripMenuItem";
+            this.ordonnanceToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.ordonnanceToolStripMenuItem.Text = "Ordonnance";
+            // 
+            // factureToolStripMenuItem
+            // 
+            this.factureToolStripMenuItem.Name = "factureToolStripMenuItem";
+            this.factureToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.factureToolStripMenuItem.Text = "Facture";
+            // 
             // Accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = global::GestionDePharmacie.Properties.Resources.mix_race_doctors_pharmacists_team_standing_pharmacy_counter_modern_drugstore_interior_medicine_healthcare_concept_horizontal_portrait_48369_24458;
+            this.ClientSize = new System.Drawing.Size(777, 337);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Accueil";

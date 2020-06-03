@@ -158,6 +158,9 @@
     <EmbeddedResource Include="Formulaires Client\Supprimer Client.resx">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Medecin\Formulaires Medecin\Ajouter Medecin.resx">
       <DependentUpon>Ajouter Medecin.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +225,10 @@
     <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
+    <None Include="Resources\pharmacy-with-doctor-nurse-counter_36082-543.jpg" />
+    <None Include="Resources\people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825.jpg" />
+    <None Include="Resources\mix-race-doctors-pharmacists-team-standing-pharmacy-counter-modern-drugstore-interior-medicine-healthcare-concept-horizontal-portrait_48369-24458.jpg" />
+    <None Include="Resources\medical-word-tiny-cartoon-doctors-flat-banner_81522-4192.jpg" />
     <None Include="Resources\online-doctor-with-computer_23-2148525681.jpg" />
     <None Include="Resources\doctors-concept-illustration_114360-1525.jpg" />
     <None Include="Resources\set-doctors-characters_48866-327.jpg" />
