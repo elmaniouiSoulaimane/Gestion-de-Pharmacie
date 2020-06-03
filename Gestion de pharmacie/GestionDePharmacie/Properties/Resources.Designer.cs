@@ -63,6 +63,16 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap big_pill_hand_doctor_169241_1924 {
+            get {
+                object obj = ResourceManager.GetObject("big-pill-hand-doctor_169241-1924", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doctor_character_background_1270_84 {
             get {
                 object obj = ResourceManager.GetObject("doctor-character-background_1270-84", resourceCulture);
@@ -103,9 +113,49 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap drugs_bottle_medical_icon_24877_51505 {
+            get {
+                object obj = ResourceManager.GetObject("drugs-bottle-medical-icon_24877-51505", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medical_care_design_24877_49709 {
+            get {
+                object obj = ResourceManager.GetObject("medical-care-design_24877-49709", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap medical_word_tiny_cartoon_doctors_flat_banner_81522_4192 {
             get {
                 object obj = ResourceManager.GetObject("medical-word-tiny-cartoon-doctors-flat-banner_81522-4192", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medicine_flat_design_1212_670 {
+            get {
+                object obj = ResourceManager.GetObject("medicine-flat-design_1212-670", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medicine_pills_capsules_healthcare_devices_169241_532 {
+            get {
+                object obj = ResourceManager.GetObject("medicine-pills-capsules-healthcare-devices_169241-532", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -145,6 +195,26 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pharmacist_counter_pharmacy_6280_722 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacist-counter-pharmacy_6280-722", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pharmacist_counter_pharmacy_6280_7221 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacist-counter-pharmacy_6280-7221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pharmacy_with_doctor_nurse_counter_36082_543 {
             get {
                 object obj = ResourceManager.GetObject("pharmacy-with-doctor-nurse-counter_36082-543", resourceCulture);
@@ -155,9 +225,49 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pharmacy_with_pharmacist_client_counter_36082_529 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacy-with-pharmacist-client-counter_36082-529", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pharmacy_with_pharmacist_client_counter_36082_556 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacy-with-pharmacist-client-counter_36082-556", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pharmacy_with_pharmacist_client_counter_36082_604 {
+            get {
+                object obj = ResourceManager.GetObject("pharmacy-with-pharmacist-client-counter_36082-604", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap set_doctors_characters_48866_327 {
             get {
                 object obj = ResourceManager.GetObject("set-doctors-characters_48866-327", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap set_pills_suspensions_bottles_74855_225 {
+            get {
+                object obj = ResourceManager.GetObject("set-pills-suspensions-bottles_74855-225", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

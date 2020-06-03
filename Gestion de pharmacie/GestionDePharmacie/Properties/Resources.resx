@@ -118,37 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="set-doctors-characters_48866-327" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\set-doctors-characters_48866-327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="young-doctors-health-professional-team_23-2148485703" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-doctors-health-professional-team_23-2148485703.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctors-nurses-team_23-2148497394" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctors-nurses-team_23-2148497394.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="drugs-bottle-medical-icon_24877-51505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drugs-bottle-medical-icon_24877-51505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="medicine-flat-design_1212-670" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicine-flat-design_1212-670.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doctors-concept-illustration_114360-1515" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctors-concept-illustration_114360-1515.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctor-character-background_1270-84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctor-character-background_1270-84.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pharmacy-with-pharmacist-client-counter_36082-529" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-529.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medical-word-tiny-cartoon-doctors-flat-banner_81522-4192" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical-word-tiny-cartoon-doctors-flat-banner_81522-4192.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctors-concept-illustration_114360-1525" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctors-concept-illustration_114360-1525.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="young-doctors-health-professional-team_23-2148485703" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\young-doctors-health-professional-team_23-2148485703.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="online-doctor-with-computer_23-2148525681" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\online-doctor-with-computer_23-2148525681.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pharmacy-with-doctor-nurse-counter_36082-543" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-doctor-nurse-counter_36082-543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mix-race-doctors-pharmacists-team-standing-pharmacy-counter-modern-drugstore-interior-medicine-healthcare-concept-horizontal-portrait_48369-24458" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mix-race-doctors-pharmacists-team-standing-pharmacy-counter-modern-drugstore-interior-medicine-healthcare-concept-horizontal-portrait_48369-24458.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pharmacy-with-doctor-nurse-counter_36082-543" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pharmacy-with-doctor-nurse-counter_36082-543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="online-doctor-with-computer_23-2148525681" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-doctor-with-computer_23-2148525681.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctors-nurses-team_23-2148497394" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctors-nurses-team_23-2148497394.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pharmacist-counter-pharmacy_6280-7221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacist-counter-pharmacy_6280-7221.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set-pills-suspensions-bottles_74855-225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set-pills-suspensions-bottles_74855-225.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pharmacy-with-pharmacist-client-counter_36082-556" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-556.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pharmacist-counter-pharmacy_6280-722" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacist-counter-pharmacy_6280-722.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor-character-background_1270-84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctor-character-background_1270-84.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medical-care-design_24877-49709" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medical-care-design_24877-49709.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctors-concept-illustration_114360-1525" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctors-concept-illustration_114360-1525.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big-pill-hand-doctor_169241-1924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big-pill-hand-doctor_169241-1924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set-doctors-characters_48866-327" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set-doctors-characters_48866-327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pharmacy-with-pharmacist-client-counter_36082-604" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-604.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medicine-pills-capsules-healthcare-devices_169241-532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicine-pills-capsules-healthcare-devices_169241-532.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

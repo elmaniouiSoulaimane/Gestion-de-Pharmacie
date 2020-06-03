@@ -80,6 +80,12 @@
     <Compile Include="Formulaires Client\Supprimer Client.Designer.cs">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Medicaments\Ajouter Medicament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Medicaments\Ajouter Medicament.Designer.cs">
+      <DependentUpon>Ajouter Medicament.cs</DependentUpon>
+    </Compile>
     <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +103,6 @@
     </Compile>
     <Compile Include="Medecin\Formulaires Medecin\Supprimer Medecin.Designer.cs">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formulaires Medicaments\Ajouter Medicament.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formulaires Medicaments\Ajouter Medicament.Designer.cs">
-      <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </Compile>
     <Compile Include="Accueil.cs">
       <SubType>Form</SubType>
@@ -158,6 +158,9 @@
     <EmbeddedResource Include="Formulaires Client\Supprimer Client.resx">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Medicaments\Ajouter Medicament.resx">
+      <DependentUpon>Ajouter Medicament.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login Form.resx">
       <DependentUpon>Login Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,9 +172,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Medecin\Formulaires Medecin\Supprimer Medecin.resx">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formulaires Medicaments\Ajouter Medicament.resx">
-      <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
@@ -225,6 +225,17 @@
     <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
+    <None Include="Resources\medicine-pills-capsules-healthcare-devices_169241-532.jpg" />
+    <None Include="Resources\set-pills-suspensions-bottles_74855-225.jpg" />
+    <None Include="Resources\big-pill-hand-doctor_169241-1924.jpg" />
+    <None Include="Resources\medical-care-design_24877-49709.jpg" />
+    <None Include="Resources\drugs-bottle-medical-icon_24877-51505.jpg" />
+    <None Include="Resources\medicine-flat-design_1212-670.jpg" />
+    <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-556.jpg" />
+    <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-604.jpg" />
+    <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-529.jpg" />
+    <None Include="Resources\pharmacist-counter-pharmacy_6280-7221.jpg" />
+    <None Include="Resources\pharmacist-counter-pharmacy_6280-722.jpg" />
     <None Include="Resources\pharmacy-with-doctor-nurse-counter_36082-543.jpg" />
     <None Include="Resources\people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825.jpg" />
     <None Include="Resources\mix-race-doctors-pharmacists-team-standing-pharmacy-counter-modern-drugstore-interior-medicine-healthcare-concept-horizontal-portrait_48369-24458.jpg" />

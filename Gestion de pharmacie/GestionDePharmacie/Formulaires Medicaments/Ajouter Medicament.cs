@@ -9,20 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using GestionDePharmacie.Entities;
 
-namespace GestionDePharmacie
+namespace GestionDePharmacie.Formulaires_Medicaments
 {
-    public partial class Form_Medicament : Form
+    public partial class Ajouter_Medicament : Form
     {
-        public Form_Medicament()
+        public Ajouter_Medicament()
         {
             InitializeComponent();
         }
         MYDBC db = new MYDBC();
-        private void Form_Medicament_Load(object sender, EventArgs e)
+        private void Ajouter_Medicament_Load(object sender, EventArgs e)
         {
 
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
@@ -45,7 +44,7 @@ namespace GestionDePharmacie
             db.Medicaments.Add(m);
             db.SaveChanges();
 
-            button2_Click(sender,e);
+            button2_Click(sender, e);
         }
 
         private void button3_Click(object sender, EventArgs e)

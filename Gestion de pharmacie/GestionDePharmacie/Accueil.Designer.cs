@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Accueil));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gererVotreClientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -220,6 +221,7 @@
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Name = "modifierLesInfrmationsDunMedicamentToolStripMenuItem";
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Size = new System.Drawing.Size(355, 24);
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Text = "Modifier les infrmations d\'un Medicament";
+            this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Click += new System.EventHandler(this.modifierLesInfrmationsDunMedicamentToolStripMenuItem_Click);
             // 
             // supprimerMedicamentToolStripMenuItem
             // 
@@ -228,6 +230,7 @@
             this.supprimerMedicamentToolStripMenuItem.Name = "supprimerMedicamentToolStripMenuItem";
             this.supprimerMedicamentToolStripMenuItem.Size = new System.Drawing.Size(355, 24);
             this.supprimerMedicamentToolStripMenuItem.Text = "Supprimer Medicament";
+            this.supprimerMedicamentToolStripMenuItem.Click += new System.EventHandler(this.supprimerMedicamentToolStripMenuItem_Click);
             // 
             // ordonnanceToolStripMenuItem
             // 
@@ -255,6 +258,7 @@
             this.BackgroundImage = global::GestionDePharmacie.Properties.Resources.mix_race_doctors_pharmacists_team_standing_pharmacy_counter_modern_drugstore_interior_medicine_healthcare_concept_horizontal_portrait_48369_24458;
             this.ClientSize = new System.Drawing.Size(814, 337);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

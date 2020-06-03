@@ -105,7 +105,23 @@ namespace GestionDePharmacie
 
         private void nouveauMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Ajouter_Medicament amdc = new Ajouter_Medicament();
+            amdc.Show();
+            this.Hide();
+        }
+
+        private void modifierLesInfrmationsDunMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modifier_Medicament mmdc = new Modifier_Medicament();
+            mmdc.Show();
+            this.Hide();
+        }
+
+        private void supprimerMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Supprimer_Medicament smdc = new Supprimer_Medicament();
+            smdc.Show();
+            this.Hide();
         }
     }
 }
