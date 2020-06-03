@@ -81,5 +81,10 @@ namespace GestionDePharmacie.Formulaires_Medecin
 
             b = false;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

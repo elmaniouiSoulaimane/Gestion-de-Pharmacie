@@ -196,6 +196,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -221,6 +222,13 @@
     <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
+    <None Include="Resources\online-doctor-with-computer_23-2148525681.jpg" />
+    <None Include="Resources\doctors-concept-illustration_114360-1525.jpg" />
+    <None Include="Resources\set-doctors-characters_48866-327.jpg" />
+    <None Include="Resources\doctors-nurses-team_23-2148497394.jpg" />
+    <None Include="Resources\young-doctors-health-professional-team_23-2148485703.jpg" />
+    <None Include="Resources\doctor-character-background_1270-84.jpg" />
+    <None Include="Resources\doctors-concept-illustration_114360-1515.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
