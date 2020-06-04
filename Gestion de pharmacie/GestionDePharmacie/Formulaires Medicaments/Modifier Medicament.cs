@@ -55,7 +55,6 @@ namespace GestionDePharmacie
             //affichage des valeures du 1er combobox
             var r = from m in db.Medicaments select m;
             comboBox1.DataSource = r.ToList();
-            b = true;
             comboBox1.DisplayMember = "RefMed";
             comboBox1.ValueMember = "MedID";
 

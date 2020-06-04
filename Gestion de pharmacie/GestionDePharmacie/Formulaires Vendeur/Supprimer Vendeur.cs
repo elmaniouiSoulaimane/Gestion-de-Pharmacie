@@ -67,7 +67,6 @@ namespace GestionDePharmacie.Formulaires_Vendeur
             //affichage des valeures du 1er combobox
             var r1 = from v in db.Vendeurs select v;
             comboBox1.DataSource = r1.ToList();
-            b = true;
             comboBox1.DisplayMember = "Nom";
             comboBox1.ValueMember = "Matricule";
 

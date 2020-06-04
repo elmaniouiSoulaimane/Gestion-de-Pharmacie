@@ -68,7 +68,6 @@ namespace GestionDePharmacie.Formulaires_Client
             //affichage des valeures du 1er combobox
             var r = from clt in db.Clients select clt;
             comboBox1.DataSource = r.ToList();
-            b = true;
             comboBox1.DisplayMember = "Nom";
             comboBox1.ValueMember = "ClientID";
         }
