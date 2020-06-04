@@ -11,21 +11,34 @@ using GestionDePharmacie.Entities;
 
 namespace GestionDePharmacie.Formulaires_Medecin
 {
-    public partial class Modifier_Medecin : Form
+    public partial class Supprimer_Medecin : Form
     {
-        public Modifier_Medecin()
+        public Supprimer_Medecin()
         {
             InitializeComponent();
         }
         MYDBC db = new MYDBC();
         Boolean b = true;
         Medecin medecinres;
-        private void Modifier_Medecin_Load(object sender, EventArgs e)
+        private void Supprimer_Medecin_Load(object sender, EventArgs e)
         {
             //affichage des valeures du 1er combobox
             var m1 = from medecin in db.Medecins select medecin;
             comboBox1.DataSource = m1.ToList();
             b = true;
+            comboBox1.DisplayMember = "Nom";
+            comboBox1.ValueMember = "MedID";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            db.Medecins.Remove(medecinres);
+
+            db.SaveChanges();
+
+            //affichage des valeures du 1er combobox
+            var r1 = from medecin in db.Medecins select medecin;
+            comboBox1.DataSource = r1.ToList();
             comboBox1.DisplayMember = "Nom";
             comboBox1.ValueMember = "MedID";
         }
@@ -38,25 +51,9 @@ namespace GestionDePharmacie.Formulaires_Medecin
             comboBox1.Focus();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            medecinres.Nom = textBox1.Text;
-            medecinres.Prenom = textBox2.Text;
-            medecinres.Adresse = textBox3.Text;
-
-            //valider le changement
-            db.SaveChanges();
-
-            //affichage des valeures du 1er combobox
-            var r = from medecin in db.Medecins select medecin;
-            comboBox1.DataSource = r.ToList();
-            comboBox1.DisplayMember = "Nom";
-            comboBox1.ValueMember = "MedID";
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -82,6 +79,11 @@ namespace GestionDePharmacie.Formulaires_Medecin
             textBox3.Text = medecinres.Adresse;
 
             b = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

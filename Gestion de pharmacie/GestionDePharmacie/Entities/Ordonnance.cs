@@ -10,6 +10,13 @@ namespace GestionDePharmacie.Entities
 {
     class Ordonnance
     {
+        public Ordonnance() 
+        {
+            this.medicaments = new HashSet<Medicament>();
+            this.factures = new HashSet<Facture>();
+        }
+
+
         [Key]
         public int OrdID { set; get; }
         public DateTime DateOrd { set; get; }

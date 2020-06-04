@@ -26,7 +26,7 @@ namespace GestionDePharmacie.Formulaires_Medicaments
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click_1(object sender, EventArgs e)

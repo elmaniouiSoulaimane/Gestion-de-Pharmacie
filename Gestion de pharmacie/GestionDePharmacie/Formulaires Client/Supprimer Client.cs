@@ -77,7 +77,7 @@ namespace GestionDePharmacie.Formulaires_Client
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
     }
 }

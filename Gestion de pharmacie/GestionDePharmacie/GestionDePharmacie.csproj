@@ -92,22 +92,22 @@
     <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.Designer.cs">
       <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.cs">
+    <Compile Include="Formulaires Medecin\Ajouter Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.Designer.cs">
+    <Compile Include="Formulaires Medecin\Ajouter Medecin.Designer.cs">
       <DependentUpon>Ajouter Medecin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Modifier Medecin.cs">
+    <Compile Include="Formulaires Medecin\Modifier Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Modifier Medecin.Designer.cs">
+    <Compile Include="Formulaires Medecin\Modifier Medecin.Designer.cs">
       <DependentUpon>Modifier Medecin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Supprimer Medecin.cs">
+    <Compile Include="Formulaires Medecin\Supprimer Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medecin\Formulaires Medecin\Supprimer Medecin.Designer.cs">
+    <Compile Include="Formulaires Medecin\Supprimer Medecin.Designer.cs">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
     </Compile>
     <Compile Include="Accueil.cs">
@@ -173,13 +173,13 @@
     <EmbeddedResource Include="Login Form.resx">
       <DependentUpon>Login Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medecin\Formulaires Medecin\Ajouter Medecin.resx">
+    <EmbeddedResource Include="Formulaires Medecin\Ajouter Medecin.resx">
       <DependentUpon>Ajouter Medecin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medecin\Formulaires Medecin\Modifier Medecin.resx">
+    <EmbeddedResource Include="Formulaires Medecin\Modifier Medecin.resx">
       <DependentUpon>Modifier Medecin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medecin\Formulaires Medecin\Supprimer Medecin.resx">
+    <EmbeddedResource Include="Formulaires Medecin\Supprimer Medecin.resx">
       <DependentUpon>Supprimer Medecin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Accueil.resx">
@@ -224,16 +224,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Medecin\Images\ajouter\character-wearing-protection-holding-covid-19-test_23-2148537664.jpg" />
-    <Content Include="Medecin\Images\Modifier-Supprimer\collection-different-equipped-pharmacists_23-2148528214.jpg" />
-    <Content Include="Medecin\Images\Modifier-Supprimer\doctors-professional-hospital-staff_23-2148497323.jpg" />
-    <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
-    <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
-    <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
     <None Include="Resources\drugs-bottle-medical-icon_24877-515051.jpg" />
     <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-496.jpg" />
     <None Include="Resources\medicine-drugs-white_25030-44583.jpg" />
