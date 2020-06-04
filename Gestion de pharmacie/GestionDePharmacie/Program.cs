@@ -20,7 +20,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ajouter_Medicament());
+            Application.Run(new Modifier_Vendeur());
         }
 
         private static object Medicament()

@@ -90,5 +90,10 @@ namespace GestionDePharmacie.Formulaires_Vendeur
         {
             this.Close();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

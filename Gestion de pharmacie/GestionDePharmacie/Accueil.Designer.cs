@@ -64,7 +64,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 10, 0, 10);
-            this.menuStrip1.Size = new System.Drawing.Size(814, 52);
+            this.menuStrip1.Size = new System.Drawing.Size(860, 52);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,15 +77,17 @@
             this.supprimerUnClientToolStripMenuItem});
             this.gererVotreClientsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreClientsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.gererVotreClientsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.Caucasian_female_head_woman_person_2855;
             this.gererVotreClientsToolStripMenuItem.Name = "gererVotreClientsToolStripMenuItem";
-            this.gererVotreClientsToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.gererVotreClientsToolStripMenuItem.Size = new System.Drawing.Size(143, 32);
+            this.gererVotreClientsToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.gererVotreClientsToolStripMenuItem.Size = new System.Drawing.Size(151, 32);
             this.gererVotreClientsToolStripMenuItem.Text = "Gerer votre Clients";
             // 
             // nouveauClientToolStripMenuItem
             // 
             this.nouveauClientToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.nouveauClientToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.nouveauClientToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
             this.nouveauClientToolStripMenuItem.Name = "nouveauClientToolStripMenuItem";
             this.nouveauClientToolStripMenuItem.Size = new System.Drawing.Size(319, 24);
             this.nouveauClientToolStripMenuItem.Text = "Nouveau Client";
@@ -95,6 +97,7 @@
             // 
             this.modifierLesInformationsDunClientToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.modifierLesInformationsDunClientToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.modifierLesInformationsDunClientToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.edit_icon_icons_com_52382;
             this.modifierLesInformationsDunClientToolStripMenuItem.Name = "modifierLesInformationsDunClientToolStripMenuItem";
             this.modifierLesInformationsDunClientToolStripMenuItem.Size = new System.Drawing.Size(319, 24);
             this.modifierLesInformationsDunClientToolStripMenuItem.Text = "Modifier les informations d\'un Client";
@@ -104,6 +107,7 @@
             // 
             this.supprimerUnClientToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.supprimerUnClientToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.supprimerUnClientToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.delete_delete_exit_1577;
             this.supprimerUnClientToolStripMenuItem.Name = "supprimerUnClientToolStripMenuItem";
             this.supprimerUnClientToolStripMenuItem.Size = new System.Drawing.Size(319, 24);
             this.supprimerUnClientToolStripMenuItem.Text = "Supprimer un Client";
@@ -118,15 +122,17 @@
             this.supprimerUnMedecinToolStripMenuItem});
             this.gererVotreMedecinToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreMedecinToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.gererVotreMedecinToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.head_medical_man_avatar_person_2837;
             this.gererVotreMedecinToolStripMenuItem.Name = "gererVotreMedecinToolStripMenuItem";
-            this.gererVotreMedecinToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.gererVotreMedecinToolStripMenuItem.Size = new System.Drawing.Size(162, 32);
+            this.gererVotreMedecinToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.gererVotreMedecinToolStripMenuItem.Size = new System.Drawing.Size(170, 32);
             this.gererVotreMedecinToolStripMenuItem.Text = "Gerer votre Medecins";
             // 
             // nouveauMedecinToolStripMenuItem
             // 
             this.nouveauMedecinToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.nouveauMedecinToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.nouveauMedecinToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
             this.nouveauMedecinToolStripMenuItem.Name = "nouveauMedecinToolStripMenuItem";
             this.nouveauMedecinToolStripMenuItem.Size = new System.Drawing.Size(338, 24);
             this.nouveauMedecinToolStripMenuItem.Text = "Nouveau Medecin";
@@ -136,6 +142,7 @@
             // 
             this.modifierLesInformationsDunMedecinToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.modifierLesInformationsDunMedecinToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.modifierLesInformationsDunMedecinToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.edit_icon_icons_com_52382;
             this.modifierLesInformationsDunMedecinToolStripMenuItem.Name = "modifierLesInformationsDunMedecinToolStripMenuItem";
             this.modifierLesInformationsDunMedecinToolStripMenuItem.Size = new System.Drawing.Size(338, 24);
             this.modifierLesInformationsDunMedecinToolStripMenuItem.Text = "Modifier les informations d\'un Medecin";
@@ -145,6 +152,7 @@
             // 
             this.supprimerUnMedecinToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.supprimerUnMedecinToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.supprimerUnMedecinToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.delete_delete_exit_1577;
             this.supprimerUnMedecinToolStripMenuItem.Name = "supprimerUnMedecinToolStripMenuItem";
             this.supprimerUnMedecinToolStripMenuItem.Size = new System.Drawing.Size(338, 24);
             this.supprimerUnMedecinToolStripMenuItem.Text = "Supprimer un Medecin";
@@ -159,15 +167,17 @@
             this.supprimerUnVendeurToolStripMenuItem});
             this.gererVotreVendeurToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreVendeurToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.gererVotreVendeurToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.caucasian_head_man_person_people_avatar_2859;
             this.gererVotreVendeurToolStripMenuItem.Name = "gererVotreVendeurToolStripMenuItem";
-            this.gererVotreVendeurToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.gererVotreVendeurToolStripMenuItem.Size = new System.Drawing.Size(159, 32);
+            this.gererVotreVendeurToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.gererVotreVendeurToolStripMenuItem.Size = new System.Drawing.Size(167, 32);
             this.gererVotreVendeurToolStripMenuItem.Text = "Gerer votre Vendeurs";
             // 
             // nouveauVendeurToolStripMenuItem
             // 
             this.nouveauVendeurToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.nouveauVendeurToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.nouveauVendeurToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
             this.nouveauVendeurToolStripMenuItem.Name = "nouveauVendeurToolStripMenuItem";
             this.nouveauVendeurToolStripMenuItem.Size = new System.Drawing.Size(335, 24);
             this.nouveauVendeurToolStripMenuItem.Text = "Nouveau Vendeur";
@@ -177,6 +187,7 @@
             // 
             this.modifierLesInformationsDunVendeurToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.modifierLesInformationsDunVendeurToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.modifierLesInformationsDunVendeurToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.edit_icon_icons_com_52382;
             this.modifierLesInformationsDunVendeurToolStripMenuItem.Name = "modifierLesInformationsDunVendeurToolStripMenuItem";
             this.modifierLesInformationsDunVendeurToolStripMenuItem.Size = new System.Drawing.Size(335, 24);
             this.modifierLesInformationsDunVendeurToolStripMenuItem.Text = "Modifier les informations d\'un Vendeur";
@@ -186,6 +197,7 @@
             // 
             this.supprimerUnVendeurToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.supprimerUnVendeurToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.supprimerUnVendeurToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.delete_delete_exit_1577;
             this.supprimerUnVendeurToolStripMenuItem.Name = "supprimerUnVendeurToolStripMenuItem";
             this.supprimerUnVendeurToolStripMenuItem.Size = new System.Drawing.Size(335, 24);
             this.supprimerUnVendeurToolStripMenuItem.Text = "Supprimer un Vendeur";
@@ -200,15 +212,17 @@
             this.supprimerMedicamentToolStripMenuItem});
             this.gererLesMedicamentsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererLesMedicamentsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.gererLesMedicamentsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.pills_pot_icon_icons_com_76239;
             this.gererLesMedicamentsToolStripMenuItem.Name = "gererLesMedicamentsToolStripMenuItem";
-            this.gererLesMedicamentsToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.gererLesMedicamentsToolStripMenuItem.Size = new System.Drawing.Size(172, 32);
+            this.gererLesMedicamentsToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.gererLesMedicamentsToolStripMenuItem.Size = new System.Drawing.Size(180, 32);
             this.gererLesMedicamentsToolStripMenuItem.Text = "Gerer les Medicaments";
             // 
             // nouveauMedicamentToolStripMenuItem
             // 
             this.nouveauMedicamentToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.nouveauMedicamentToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.nouveauMedicamentToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
             this.nouveauMedicamentToolStripMenuItem.Name = "nouveauMedicamentToolStripMenuItem";
             this.nouveauMedicamentToolStripMenuItem.Size = new System.Drawing.Size(355, 24);
             this.nouveauMedicamentToolStripMenuItem.Text = "Nouveau Medicament";
@@ -218,6 +232,7 @@
             // 
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.edit_icon_icons_com_52382;
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Name = "modifierLesInfrmationsDunMedicamentToolStripMenuItem";
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Size = new System.Drawing.Size(355, 24);
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem.Text = "Modifier les infrmations d\'un Medicament";
@@ -227,6 +242,7 @@
             // 
             this.supprimerMedicamentToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.supprimerMedicamentToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.supprimerMedicamentToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.delete_delete_exit_1577;
             this.supprimerMedicamentToolStripMenuItem.Name = "supprimerMedicamentToolStripMenuItem";
             this.supprimerMedicamentToolStripMenuItem.Size = new System.Drawing.Size(355, 24);
             this.supprimerMedicamentToolStripMenuItem.Text = "Supprimer Medicament";
@@ -236,27 +252,29 @@
             // 
             this.ordonnanceToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ordonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.prescription_icon_icons_com_58843;
             this.ordonnanceToolStripMenuItem.Name = "ordonnanceToolStripMenuItem";
-            this.ordonnanceToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.ordonnanceToolStripMenuItem.Size = new System.Drawing.Size(102, 32);
+            this.ordonnanceToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.ordonnanceToolStripMenuItem.Size = new System.Drawing.Size(110, 32);
             this.ordonnanceToolStripMenuItem.Text = "Ordonnance";
             // 
             // factureToolStripMenuItem
             // 
             this.factureToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.factureToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.factureToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.receipt_shopping_icon_icons_com_49849;
             this.factureToolStripMenuItem.Name = "factureToolStripMenuItem";
-            this.factureToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4);
-            this.factureToolStripMenuItem.Size = new System.Drawing.Size(68, 32);
+            this.factureToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.factureToolStripMenuItem.Size = new System.Drawing.Size(76, 32);
             this.factureToolStripMenuItem.Text = "Facture";
             // 
             // Accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.PowderBlue;
             this.BackgroundImage = global::GestionDePharmacie.Properties.Resources.mix_race_doctors_pharmacists_team_standing_pharmacy_counter_modern_drugstore_interior_medicine_healthcare_concept_horizontal_portrait_48369_24458;
-            this.ClientSize = new System.Drawing.Size(814, 337);
+            this.ClientSize = new System.Drawing.Size(860, 337);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
