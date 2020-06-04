@@ -55,6 +55,7 @@
             this.button3.TabIndex = 47;
             this.button3.Text = "Fermer";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -67,6 +68,7 @@
             this.button2.TabIndex = 46;
             this.button2.Text = "Reinitialiser";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -79,6 +81,7 @@
             this.button1.TabIndex = 45;
             this.button1.Text = "Ajouter";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // textBox4
             // 
@@ -188,8 +191,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Ajouter_Medicament";
-            this.Text = "Ajouter_Medicament";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ajouter Medicament";
             this.Load += new System.EventHandler(this.Ajouter_Medicament_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

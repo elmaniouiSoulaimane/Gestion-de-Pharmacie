@@ -22,7 +22,14 @@ namespace GestionDePharmacie.Formulaires_Medicaments
         {
 
         }
-        private void button2_Click(object sender, EventArgs e)
+
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();
@@ -31,7 +38,7 @@ namespace GestionDePharmacie.Formulaires_Medicaments
             textBox1.Focus();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             //creation d'un medicament
             Medicament m = new Medicament();
@@ -44,12 +51,7 @@ namespace GestionDePharmacie.Formulaires_Medicaments
             db.Medicaments.Add(m);
             db.SaveChanges();
 
-            button2_Click(sender, e);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            button2_Click_1(sender, e);
         }
     }
 }

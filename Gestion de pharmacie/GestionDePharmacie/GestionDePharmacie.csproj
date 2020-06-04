@@ -86,6 +86,12 @@
     <Compile Include="Formulaires Medicaments\Ajouter Medicament.Designer.cs">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.Designer.cs">
+      <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Medecin\Formulaires Medecin\Ajouter Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +167,9 @@
     <EmbeddedResource Include="Formulaires Medicaments\Ajouter Medicament.resx">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Ordonnance\Ajouter Ordonnance.resx">
+      <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login Form.resx">
       <DependentUpon>Login Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +234,13 @@
     <Content Include="Medecin\Images\Modifier-Supprimer\group-different-pharmacists_23-2148519040.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\health-professional-collection_23-2148529698.jpg" />
     <Content Include="Medecin\Images\Modifier-Supprimer\people-working-pharmacy-together_23-2148519039.jpg" />
+    <None Include="Resources\drugs-bottle-medical-icon_24877-515051.jpg" />
+    <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-496.jpg" />
+    <None Include="Resources\medicine-drugs-white_25030-44583.jpg" />
+    <None Include="Resources\medicine-flat-design_1212-6701.jpg" />
+    <None Include="Resources\pharmacist_23-2148174589.jpg" />
+    <None Include="Resources\pharmacy-with-pharmacist-client-counter_36082-469.jpg" />
+    <None Include="Resources\people-working-science-lab_23-2148479660.jpg" />
     <None Include="Resources\add_icon-icons.com_52393.png" />
     <None Include="Resources\receipt_shopping_icon-icons.com_49849.png" />
     <None Include="Resources\prescription_icon-icons.com_58843.png" />

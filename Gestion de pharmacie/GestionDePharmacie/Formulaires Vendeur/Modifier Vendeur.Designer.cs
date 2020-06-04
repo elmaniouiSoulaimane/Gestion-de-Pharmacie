@@ -205,10 +205,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GestionDePharmacie.Properties.Resources.science_laboratory_illustration_1284_19152;
-            this.pictureBox1.Location = new System.Drawing.Point(416, -2);
+            this.pictureBox1.Image = global::GestionDePharmacie.Properties.Resources.pharmacy_with_pharmacist_client_counter_36082_469;
+            this.pictureBox1.Location = new System.Drawing.Point(429, -2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(378, 401);
+            this.pictureBox1.Size = new System.Drawing.Size(455, 401);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
@@ -217,8 +217,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(794, 397);
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.ClientSize = new System.Drawing.Size(883, 397);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox4);
@@ -236,8 +236,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Modifier_Vendeur";
-            this.Text = "Modifier_Vendeur";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Modifier Vendeur";
             this.Load += new System.EventHandler(this.Modifier_Vendeur_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

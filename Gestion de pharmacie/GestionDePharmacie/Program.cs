@@ -2,6 +2,7 @@
 using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Medicaments;
 using GestionDePharmacie.Formulaires_Vendeur;
+using GestionDePharmacie.Formulaires_Ordonnance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Modifier_Vendeur());
+            Application.Run(new Modifier_Medicament());
         }
 
         private static object Medicament()

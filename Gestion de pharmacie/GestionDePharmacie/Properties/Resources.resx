@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="drugs-bottle-medical-icon_24877-51505" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drugs-bottle-medical-icon_24877-51505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="medicine-flat-design_1212-6701" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicine-flat-design_1212-6701.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pharmacy-with-pharmacist-client-counter_36082-469" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-469.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign-emergency-code-sos_23_icon-icons.com_57202" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign-emergency-code-sos_23_icon-icons.com_57202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,11 +130,20 @@
   <data name="head_medical_man_avatar_person_2837" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\head_medical_man_avatar_person_2837.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="people-working-science-lab_23-2148479660" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people-working-science-lab_23-2148479660.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="medicine-flat-design_1212-670" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medicine-flat-design_1212-670.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add_icon-icons.com_52393" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_icon-icons.com_52393.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\people-buying-medical-products-modern-drugstore-front-view-pharmacy-store-building-exterior-medicine-healthcare-concept-horizontal-full-length_48369-24825.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big-pill-hand-doctor_169241-1924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big-pill-hand-doctor_169241-1924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pharmacist-counter-pharmacy_6280-722" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pharmacist-counter-pharmacy_6280-722.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +157,11 @@
   <data name="pharmacy-illustration-with-doctor-holding-tablet-buy-medicine_36082-597" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pharmacy-illustration-with-doctor-holding-tablet-buy-medicine_36082-597.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="big-pill-hand-doctor_169241-1924" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\big-pill-hand-doctor_169241-1924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pharmacist_23-2148174589" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacist_23-2148174589.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_shopping_icon-icons.com_49849" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_shopping_icon-icons.com_49849.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flat-salesman-character-holding-contract-document_23-21478855291" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flat-salesman-character-holding-contract-document_23-21478855291.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +178,9 @@
   <data name="pills_medical_10732" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pills_medical_10732.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="medicine-drugs-white_25030-44583" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicine-drugs-white_25030-44583.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="set-pills-suspensions-bottles_74855-225" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\set-pills-suspensions-bottles_74855-225.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -171,9 +189,6 @@
   </data>
   <data name="caucasian_head_man_person_people_avatar_2859" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caucasian_head_man_person_people_avatar_2859.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="receipt_shopping_icon-icons.com_49849" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\receipt_shopping_icon-icons.com_49849.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doctors-concept-illustration_114360-1515" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctors-concept-illustration_114360-1515.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -186,6 +201,9 @@
   </data>
   <data name="set-doctors-characters_48866-327" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\set-doctors-characters_48866-327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drugs-bottle-medical-icon_24877-51505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drugs-bottle-medical-icon_24877-51505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doctors-concept-illustration_114360-1525" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctors-concept-illustration_114360-1525.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,7 +247,10 @@
   <data name="pharmacy-with-pharmacist-client-counter_36082-556" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-556.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_icon-icons.com_52393" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_icon-icons.com_52393.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pharmacy-with-pharmacist-client-counter_36082-496" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pharmacy-with-pharmacist-client-counter_36082-496.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drugs-bottle-medical-icon_24877-515051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drugs-bottle-medical-icon_24877-515051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

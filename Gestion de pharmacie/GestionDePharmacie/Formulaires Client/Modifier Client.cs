@@ -43,6 +43,7 @@ namespace GestionDePharmacie.Formulaires_Client
             else
             {
                 clt1.ClientID = (int)comboBox1.SelectedValue;
+      
             }
 
 
