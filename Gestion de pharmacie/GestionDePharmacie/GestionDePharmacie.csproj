@@ -86,12 +86,6 @@
     <Compile Include="Formulaires Medicaments\Ajouter Medicament.Designer.cs">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.Designer.cs">
-      <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formulaires Medecin\Ajouter Medecin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +121,12 @@
     </Compile>
     <Compile Include="Formulaires Medicaments\Supprimer Medicament.Designer.cs">
       <DependentUpon>Supprimer Medicament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.Designer.cs">
+      <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulaires Vendeur\Ajouter Vendeur.cs">
       <SubType>Form</SubType>

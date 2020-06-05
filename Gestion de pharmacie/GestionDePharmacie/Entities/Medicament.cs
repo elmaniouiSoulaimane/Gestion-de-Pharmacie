@@ -9,6 +9,11 @@ namespace GestionDePharmacie.Entities
 {
     class Medicament
     {
+        public Medicament()
+        {
+            this.ordonnances = new HashSet<Ordonnance>();
+
+        }
         [Key]
         public int MedID { set; get; }
         public string RefMed { set; get; }

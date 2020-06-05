@@ -10,7 +10,7 @@ namespace GestionDePharmacie.Entities
 {
     class Ordonnance
     {
-        public Ordonnance() 
+        public Ordonnance()
         {
             this.medicaments = new HashSet<Medicament>();
             this.factures = new HashSet<Facture>();

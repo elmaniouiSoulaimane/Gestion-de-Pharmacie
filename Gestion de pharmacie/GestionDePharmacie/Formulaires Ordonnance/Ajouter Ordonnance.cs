@@ -1,11 +1,11 @@
-﻿using GestionDePharmacie.Entities;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using GestionDePharmacie.Entities;
 using GestionDePharmacie.Formulaires_Client;
 using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Vendeur;
 using GestionDePharmacie.Formulaires_Medicaments;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -22,18 +22,6 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             InitializeComponent();
         }
         MYDBC db = new MYDBC();
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Ajouter_Client nouveauClt = new Ajouter_Client();
-            nouveauClt.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Ajouter_Medecin nouveaumdc = new Ajouter_Medecin();
-            nouveaumdc.Show();
-        }
-
         private void Ajouter_Ordonnance_Load(object sender, EventArgs e)
         {
             dataGridView1.ColumnCount = 3;
@@ -68,23 +56,24 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             comboBox2.DataSource = med.ToList();
             comboBox2.DisplayMember = "Nom";
             comboBox2.ValueMember = "MedID";
+
         }
         ComboBox cb;
-        private void dataGridView1_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        private void dataGridView1_EditingControlShowing_1(object sender, DataGridViewEditingControlShowingEventArgs e)
         {
+
             cb = e.Control as ComboBox;
 
             if (cb != null)
             {
 
 
-                cb.SelectedIndexChanged += new EventHandler(cb_SelectedIndexChanged);
+                cb.SelectedIndexChanged += new EventHandler(cb_SelectedIndexChanged_1);
             }
 
         }
-        Medicament m;
         List<int> colID = new List<int>();
-        private void cb_SelectedIndexChanged(object sender, EventArgs e)
+        private void cb_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if ((sender as ComboBox).SelectedValue != null)
             {
@@ -97,7 +86,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
                     {
                         Medicament m1 = new Medicament();
                         m1.MedID = int.Parse(ID);
-                        m = db.Medicaments.Where(x => x.MedID == m1.MedID).First();
+                        Medicament m = db.Medicaments.Where(x => x.MedID == m1.MedID).First();
                         dataGridView1.CurrentRow.Cells[1].Value = m.Prix;
                         colID.Add(m1.MedID);
 
@@ -108,7 +97,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
 
         }
         int j;
-        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellValueChanged_1(object sender, DataGridViewCellEventArgs e)
         {
             j = e.RowIndex;
         }
@@ -122,7 +111,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
 
         }
 
-        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellEndEdit_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentCell.ColumnIndex == 2)
             {
@@ -131,7 +120,19 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Ajouter_Client nouveauClt = new Ajouter_Client();
+            nouveauClt.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Ajouter_Medecin nouveaumdc = new Ajouter_Medecin();
+            nouveaumdc.Show();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
         {
             Ordonnance o = new Ordonnance();
             Facture f = new Facture();
@@ -149,7 +150,6 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             foreach (DataGridViewRow r in dataGridView1.Rows)
             {
                 if (i == dataGridView1.Rows.Count - 1) { break; }
-                i++;
 
                 Medicament m1 = new Medicament();
 
@@ -160,8 +160,8 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
                 i++;
                 Medicament m = db.Medicaments.Where(x => x.MedID == m1.MedID).First();
 
-                db.Ordonnances.Add(o);
-                db.SaveChanges();
+                m.ordonnances.Add(o);
+                o.medicaments.Add(m);
 
 
 
@@ -177,7 +177,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             db.SaveChanges();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
             Medecin m = db.Medecins.First();
 
@@ -185,7 +185,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             this.Hide();
         }

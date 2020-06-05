@@ -9,6 +9,12 @@ namespace GestionDePharmacie.Entities
 {
     class Client
     {
+        public Client()
+        {
+            this.Ordonnances = new HashSet<Ordonnance>();
+
+        }
+
         [Key]
         public int ClientID { set; get;}
         public string Nom { set; get; }
