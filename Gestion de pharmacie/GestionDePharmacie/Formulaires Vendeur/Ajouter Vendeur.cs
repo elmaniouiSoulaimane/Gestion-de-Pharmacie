@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GestionDePharmacie.Entities;
+using System.Security.Cryptography;
 
 namespace GestionDePharmacie.Formulaires_Vendeur
 {
@@ -17,6 +18,19 @@ namespace GestionDePharmacie.Formulaires_Vendeur
         {
             InitializeComponent();
         }
+
+
+        static string Encrypt(string value)
+        {
+            using (MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider())
+            {
+                UTF8Encoding utf8 = new UTF8Encoding();
+                byte[] data = md5.ComputeHash(utf8.GetBytes(value));
+                return Convert.ToBase64String(data);
+            }
+        }
+
+
         MYDBC db = new MYDBC();
         private void button1_Click(object sender, EventArgs e)
         {
@@ -26,7 +40,7 @@ namespace GestionDePharmacie.Formulaires_Vendeur
             v.Nom = textBox1.Text;
             v.Prenom = textBox2.Text;
             v.Login = textBox3.Text;
-            v.Motdepass = textBox4.Text;
+            v.Motdepass =  Encrypt(textBox4.Text);
             v.Dernierecon = dateTimePicker1.Value;
 
             db.Vendeurs.Add(v);

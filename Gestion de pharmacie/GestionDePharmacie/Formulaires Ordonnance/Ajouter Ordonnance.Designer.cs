@@ -210,6 +210,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Ajouter_Ordonnance";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ajouter_Ordonnance";
             this.Load += new System.EventHandler(this.Ajouter_Ordonnance_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

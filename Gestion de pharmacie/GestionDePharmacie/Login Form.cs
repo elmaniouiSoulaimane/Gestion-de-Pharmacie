@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
+using GestionDePharmacie.Entities;
 
 namespace GestionDePharmacie
 {
@@ -17,6 +19,18 @@ namespace GestionDePharmacie
         public Login_Form()
         {
             InitializeComponent();
+        }
+        MYDBC db = new MYDBC();
+        Vendeur res;
+        Boolean b = true;
+        static string Encrypt(string value)
+        {
+            using (MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider())
+            {
+                UTF8Encoding utf8 = new UTF8Encoding();
+                byte[] data = md5.ComputeHash(utf8.GetBytes(value));
+                return Convert.ToBase64String(data);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -37,19 +51,32 @@ namespace GestionDePharmacie
             con.Open();
 
             string log = textBox1.Text;
-            string ps = textBox2.Text;
+            string ps = Encrypt(textBox2.Text);
 
             string query = "select * from Vendeurs where Login=@user and Motdepass=@pass";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.Add(new SqlParameter("@user", log));
             cmd.Parameters.Add(new SqlParameter("@pass", ps));
-
-
+            
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.HasRows == true)
             {
                 this.Hide();
                 MessageBox.Show("Bienvenue "+log);
+
+                //incrementation du nombre de connections du vendeur
+                //cherche d'objet selectionner
+                Vendeur v1 = new Vendeur();
+                v1.Login = log;
+                res = db.Vendeurs.Where(x => x.Login == v1.Login).First();
+                res.nbCon++;
+                //valider le changement
+                db.SaveChanges();
+
+
+
+
+                //end
                 Accueil.mdiobj.menuStrip1.Enabled = true;
                 Accueil.mdiobj.Height = 376;
                 Accueil.mdiobj.Width = 876;
