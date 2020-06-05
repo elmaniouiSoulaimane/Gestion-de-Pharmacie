@@ -155,6 +155,7 @@ namespace GestionDePharmacie
 
         private void listeDesMedicamentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Facture fm = new Facture();
             
         }
 
@@ -162,6 +163,38 @@ namespace GestionDePharmacie
         {
             Ajouter_Ordonnance ao = new Ajouter_Ordonnance();
             ao.Show();
+        }
+
+        private void listeDesClientsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Liste_des_clients lclt = new Liste_des_clients();
+            lclt.Show();
+        }
+
+        private void listeDesMedecinsiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Liste_des_medecins lmd = new Liste_des_medecins();
+            lmd.Show();
+        }
+
+        private void listeDesVendeursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Liste_des_vendeurs lv = new Liste_des_vendeurs();
+            lv.Show();
+
+        }
+
+        private void listeDesMedicamentsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Liste_des_medicaments lm = new Liste_des_medicaments();
+            lm.Show();
+
+        }
+
+        private void listeDesOrdonnancesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Liste_des_ordonnances lo = new Liste_des_ordonnances();
+            lo.Show();
         }
     }
 }

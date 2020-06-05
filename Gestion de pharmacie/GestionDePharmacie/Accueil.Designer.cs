@@ -34,20 +34,25 @@
             this.nouveauClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesClientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererVotreMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnMedecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesMedecinsiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererVotreVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInformationsDunVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerUnVendeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesVendeursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererLesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesMedicamentsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ordonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterOrdonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesOrdonnancesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -77,7 +82,8 @@
             this.gererVotreClientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nouveauClientToolStripMenuItem,
             this.modifierLesInformationsDunClientToolStripMenuItem,
-            this.supprimerUnClientToolStripMenuItem});
+            this.supprimerUnClientToolStripMenuItem,
+            this.listeDesClientsToolStripMenuItem});
             this.gererVotreClientsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreClientsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.gererVotreClientsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.Caucasian_female_head_woman_person_2855;
@@ -116,13 +122,24 @@
             this.supprimerUnClientToolStripMenuItem.Text = "Supprimer un Client";
             this.supprimerUnClientToolStripMenuItem.Click += new System.EventHandler(this.supprimerUnClientToolStripMenuItem_Click);
             // 
+            // listeDesClientsToolStripMenuItem
+            // 
+            this.listeDesClientsToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesClientsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listeDesClientsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.iconfinder_document03_1622833_121957;
+            this.listeDesClientsToolStripMenuItem.Name = "listeDesClientsToolStripMenuItem";
+            this.listeDesClientsToolStripMenuItem.Size = new System.Drawing.Size(319, 24);
+            this.listeDesClientsToolStripMenuItem.Text = "Liste des Clients";
+            this.listeDesClientsToolStripMenuItem.Click += new System.EventHandler(this.listeDesClientsToolStripMenuItem_Click);
+            // 
             // gererVotreMedecinToolStripMenuItem
             // 
             this.gererVotreMedecinToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.gererVotreMedecinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nouveauMedecinToolStripMenuItem,
             this.modifierLesInformationsDunMedecinToolStripMenuItem,
-            this.supprimerUnMedecinToolStripMenuItem});
+            this.supprimerUnMedecinToolStripMenuItem,
+            this.listeDesMedecinsiToolStripMenuItem});
             this.gererVotreMedecinToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreMedecinToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.gererVotreMedecinToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.head_medical_man_avatar_person_2837;
@@ -161,13 +178,24 @@
             this.supprimerUnMedecinToolStripMenuItem.Text = "Supprimer un Medecin";
             this.supprimerUnMedecinToolStripMenuItem.Click += new System.EventHandler(this.supprimerUnMedecinToolStripMenuItem_Click);
             // 
+            // listeDesMedecinsiToolStripMenuItem
+            // 
+            this.listeDesMedecinsiToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesMedecinsiToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listeDesMedecinsiToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.iconfinder_document03_1622833_121957;
+            this.listeDesMedecinsiToolStripMenuItem.Name = "listeDesMedecinsiToolStripMenuItem";
+            this.listeDesMedecinsiToolStripMenuItem.Size = new System.Drawing.Size(338, 24);
+            this.listeDesMedecinsiToolStripMenuItem.Text = "Liste des Medecins";
+            this.listeDesMedecinsiToolStripMenuItem.Click += new System.EventHandler(this.listeDesMedecinsiToolStripMenuItem_Click);
+            // 
             // gererVotreVendeurToolStripMenuItem
             // 
             this.gererVotreVendeurToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.gererVotreVendeurToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nouveauVendeurToolStripMenuItem,
             this.modifierLesInformationsDunVendeurToolStripMenuItem,
-            this.supprimerUnVendeurToolStripMenuItem});
+            this.supprimerUnVendeurToolStripMenuItem,
+            this.listeDesVendeursToolStripMenuItem});
             this.gererVotreVendeurToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererVotreVendeurToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.gererVotreVendeurToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.caucasian_head_man_person_people_avatar_2859;
@@ -206,13 +234,24 @@
             this.supprimerUnVendeurToolStripMenuItem.Text = "Supprimer un Vendeur";
             this.supprimerUnVendeurToolStripMenuItem.Click += new System.EventHandler(this.supprimerUnVendeurToolStripMenuItem_Click);
             // 
+            // listeDesVendeursToolStripMenuItem
+            // 
+            this.listeDesVendeursToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesVendeursToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listeDesVendeursToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.iconfinder_document03_1622833_121957;
+            this.listeDesVendeursToolStripMenuItem.Name = "listeDesVendeursToolStripMenuItem";
+            this.listeDesVendeursToolStripMenuItem.Size = new System.Drawing.Size(335, 24);
+            this.listeDesVendeursToolStripMenuItem.Text = "Liste des Vendeurs";
+            this.listeDesVendeursToolStripMenuItem.Click += new System.EventHandler(this.listeDesVendeursToolStripMenuItem_Click);
+            // 
             // gererLesMedicamentsToolStripMenuItem
             // 
             this.gererLesMedicamentsToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
             this.gererLesMedicamentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nouveauMedicamentToolStripMenuItem,
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem,
-            this.supprimerMedicamentToolStripMenuItem});
+            this.supprimerMedicamentToolStripMenuItem,
+            this.listeDesMedicamentsToolStripMenuItem1});
             this.gererLesMedicamentsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gererLesMedicamentsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.gererLesMedicamentsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.pills_pot_icon_icons_com_76239;
@@ -251,10 +290,21 @@
             this.supprimerMedicamentToolStripMenuItem.Text = "Supprimer Medicament";
             this.supprimerMedicamentToolStripMenuItem.Click += new System.EventHandler(this.supprimerMedicamentToolStripMenuItem_Click);
             // 
+            // listeDesMedicamentsToolStripMenuItem1
+            // 
+            this.listeDesMedicamentsToolStripMenuItem1.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesMedicamentsToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
+            this.listeDesMedicamentsToolStripMenuItem1.Image = global::GestionDePharmacie.Properties.Resources.iconfinder_document03_1622833_121957;
+            this.listeDesMedicamentsToolStripMenuItem1.Name = "listeDesMedicamentsToolStripMenuItem1";
+            this.listeDesMedicamentsToolStripMenuItem1.Size = new System.Drawing.Size(355, 24);
+            this.listeDesMedicamentsToolStripMenuItem1.Text = "Liste des Medicaments";
+            this.listeDesMedicamentsToolStripMenuItem1.Click += new System.EventHandler(this.listeDesMedicamentsToolStripMenuItem1_Click);
+            // 
             // ordonnanceToolStripMenuItem
             // 
             this.ordonnanceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterOrdonnanceToolStripMenuItem});
+            this.ajouterOrdonnanceToolStripMenuItem,
+            this.listeDesOrdonnancesToolStripMenuItem});
             this.ordonnanceToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ordonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.prescription_icon_icons_com_58843;
@@ -269,9 +319,19 @@
             this.ajouterOrdonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ajouterOrdonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
             this.ajouterOrdonnanceToolStripMenuItem.Name = "ajouterOrdonnanceToolStripMenuItem";
-            this.ajouterOrdonnanceToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.ajouterOrdonnanceToolStripMenuItem.Size = new System.Drawing.Size(226, 24);
             this.ajouterOrdonnanceToolStripMenuItem.Text = "Ajouter Ordonnance";
             this.ajouterOrdonnanceToolStripMenuItem.Click += new System.EventHandler(this.ajouterOrdonnanceToolStripMenuItem_Click);
+            // 
+            // listeDesOrdonnancesToolStripMenuItem
+            // 
+            this.listeDesOrdonnancesToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesOrdonnancesToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listeDesOrdonnancesToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.iconfinder_document03_1622833_121957;
+            this.listeDesOrdonnancesToolStripMenuItem.Name = "listeDesOrdonnancesToolStripMenuItem";
+            this.listeDesOrdonnancesToolStripMenuItem.Size = new System.Drawing.Size(226, 24);
+            this.listeDesOrdonnancesToolStripMenuItem.Text = "Liste des Ordonnances";
+            this.listeDesOrdonnancesToolStripMenuItem.Click += new System.EventHandler(this.listeDesOrdonnancesToolStripMenuItem_Click);
             // 
             // factureToolStripMenuItem
             // 
@@ -341,6 +401,11 @@
         private System.Windows.Forms.ToolStripMenuItem listeDesMedicamentsToolStripMenuItem;
         public System.Windows.Forms.MenuStrip menuStrip1;
         public System.Windows.Forms.ToolStripMenuItem gererVotreClientsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesClientsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesMedecinsiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesVendeursToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesMedicamentsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem listeDesOrdonnancesToolStripMenuItem;
     }
 }
 

@@ -175,6 +175,8 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             db.Factures.Add(f);
             db.Ordonnances.Add(o);
             db.SaveChanges();
+
+            MessageBox.Show("Votre ordonnance a etait supprimer avec succees");
         }
 
         private void button4_Click_1(object sender, EventArgs e)

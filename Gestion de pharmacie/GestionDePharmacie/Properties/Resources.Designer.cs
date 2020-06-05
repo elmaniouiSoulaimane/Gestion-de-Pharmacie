@@ -63,6 +63,16 @@ namespace GestionDePharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1486506225_item_li_list_list_item_ul_81441 {
+            get {
+                object obj = ResourceManager.GetObject("1486506225-item-li-list-list-item-ul_81441", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_icon_icons_com_52393 {
             get {
                 object obj = ResourceManager.GetObject("add_icon-icons.com_52393", resourceCulture);
@@ -226,6 +236,16 @@ namespace GestionDePharmacie.Properties {
         internal static System.Drawing.Bitmap head_medical_man_avatar_person_2837 {
             get {
                 object obj = ResourceManager.GetObject("head_medical_man_avatar_person_2837", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_document03_1622833_121957 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-document03-1622833_121957", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

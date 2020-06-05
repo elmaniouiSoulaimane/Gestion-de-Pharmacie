@@ -87,6 +87,12 @@
     <Compile Include="Formulaires Client\Ajouter Client.Designer.cs">
       <DependentUpon>Ajouter Client.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Client\Liste des clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Client\Liste des clients.Designer.cs">
+      <DependentUpon>Liste des clients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaires Client\Modifier Client.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="Formulaires Client\Supprimer Client.Designer.cs">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires Medecin\Liste des medecins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Medecin\Liste des medecins.Designer.cs">
+      <DependentUpon>Liste des medecins.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulaires Medicaments\Ajouter Medicament.cs">
       <SubType>Form</SubType>
@@ -129,6 +141,12 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Medicaments\Liste des medicaments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Medicaments\Liste des medicaments.Designer.cs">
+      <DependentUpon>Liste des medicaments.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaires Medicaments\Modifier Medicament.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,11 +165,23 @@
     <Compile Include="Formulaires Ordonnance\Ajouter Ordonnance.Designer.cs">
       <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaires Ordonnance\Liste des ordonnances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Ordonnance\Liste des ordonnances.Designer.cs">
+      <DependentUpon>Liste des ordonnances.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaires Vendeur\Ajouter Vendeur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formulaires Vendeur\Ajouter Vendeur.Designer.cs">
       <DependentUpon>Ajouter Vendeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Liste des vendeurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires Vendeur\Liste des vendeurs.Designer.cs">
+      <DependentUpon>Liste des vendeurs.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulaires Vendeur\Modifier Vendeur.cs">
       <SubType>Form</SubType>
@@ -164,6 +194,31 @@
     </Compile>
     <Compile Include="Formulaires Vendeur\Supprimer Vendeur.Designer.cs">
       <DependentUpon>Supprimer Vendeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_de_pharmacieDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_de_pharmacieDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_de_pharmacieDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_de_pharmacieDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_de_pharmacieDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_de_pharmacieDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_de_pharmacieDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_de_pharmacieDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_de_pharmacieDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_de_pharmacieDataSet4.xsd</DependentUpon>
     </Compile>
     <Compile Include="Login Form.cs">
       <SubType>Form</SubType>
@@ -184,17 +239,32 @@
     <EmbeddedResource Include="Formulaires Client\Ajouter Client.resx">
       <DependentUpon>Ajouter Client.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Client\Liste des clients.resx">
+      <DependentUpon>Liste des clients.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Client\Modifier Client.resx">
       <DependentUpon>Modifier Client.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Client\Supprimer Client.resx">
       <DependentUpon>Supprimer Client.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Medecin\Liste des medecins.resx">
+      <DependentUpon>Liste des medecins.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Medicaments\Ajouter Medicament.resx">
       <DependentUpon>Ajouter Medicament.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Medicaments\Liste des medicaments.resx">
+      <DependentUpon>Liste des medicaments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Ordonnance\Ajouter Ordonnance.resx">
       <DependentUpon>Ajouter Ordonnance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Ordonnance\Liste des ordonnances.resx">
+      <DependentUpon>Liste des ordonnances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires Vendeur\Liste des vendeurs.resx">
+      <DependentUpon>Liste des vendeurs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login Form.resx">
       <DependentUpon>Login Form.cs</DependentUpon>
@@ -236,6 +306,61 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Gestion_de_pharmacieDataSet.xsc">
+      <DependentUpon>Gestion_de_pharmacieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_de_pharmacieDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet.xss">
+      <DependentUpon>Gestion_de_pharmacieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet1.xsc">
+      <DependentUpon>Gestion_de_pharmacieDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_de_pharmacieDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet1.xss">
+      <DependentUpon>Gestion_de_pharmacieDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet2.xsc">
+      <DependentUpon>Gestion_de_pharmacieDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_de_pharmacieDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet2.xss">
+      <DependentUpon>Gestion_de_pharmacieDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet3.xsc">
+      <DependentUpon>Gestion_de_pharmacieDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_de_pharmacieDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet3.xss">
+      <DependentUpon>Gestion_de_pharmacieDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet4.xsc">
+      <DependentUpon>Gestion_de_pharmacieDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_de_pharmacieDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_de_pharmacieDataSet4.xss">
+      <DependentUpon>Gestion_de_pharmacieDataSet4.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -303,7 +428,12 @@
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\1486506225-item-li-list-list-item-ul_81441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-document03-1622833_121957.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -202,6 +202,9 @@
   <data name="set-doctors-characters_48866-327" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\set-doctors-characters_48866-327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1486506225-item-li-list-list-item-ul_81441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1486506225-item-li-list-list-item-ul_81441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="drugs-bottle-medical-icon_24877-51505" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\drugs-bottle-medical-icon_24877-51505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -255,5 +258,8 @@
   </data>
   <data name="closeup-doctor-hold-clipboard-making-notes-write-diagnosis_48369-18603" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\closeup-doctor-hold-clipboard-making-notes-write-diagnosis_48369-18603.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder-document03-1622833_121957" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder-document03-1622833_121957.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
