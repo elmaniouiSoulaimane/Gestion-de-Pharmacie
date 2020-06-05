@@ -76,6 +76,7 @@ namespace GestionDePharmacie.Formulaires_Medicaments
 
             db.SaveChanges();
 
+            MessageBox.Show("Le medicament "+res.Designation + "a etait supprimer avec succees");
             //affichage des valeures du 1er combobox
             var r1 = from m in db.Medicaments select m;
             comboBox1.DataSource = r1.ToList();

@@ -69,6 +69,7 @@ namespace GestionDePharmacie.Formulaires_Vendeur
             //valider le changement
             db.SaveChanges();
 
+            MessageBox.Show("Le vendeur"+res.Nom + "a etait modifier avec succees");
             //affichage des valeures du 1er combobox
             var r = from v in db.Vendeurs select v;
             comboBox1.DataSource = r.ToList();

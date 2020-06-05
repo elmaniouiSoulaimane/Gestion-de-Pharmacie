@@ -18,6 +18,7 @@ namespace GestionDePharmacie
 {
     public partial class Accueil : Form
     {
+        public static Accueil mdiobj;
         public Accueil()
         {
             InitializeComponent();
@@ -28,6 +29,39 @@ namespace GestionDePharmacie
         private void Form1_Load(object sender, EventArgs e)
         {
             db.Database.CreateIfNotExists();//il permet 
+            menuStrip1.Enabled = false;
+            Login_Form log = new Login_Form();
+            Ajouter_Client aclt = new Ajouter_Client();
+            Ajouter_Medecin amdc = new Ajouter_Medecin();
+            Ajouter_Medicament amedi = new Ajouter_Medicament();
+            Ajouter_Ordonnance ao = new Ajouter_Ordonnance();
+            Ajouter_Vendeur av = new Ajouter_Vendeur();
+            Modifier_Client mclt = new Modifier_Client();
+            Modifier_Medecin mmed = new Modifier_Medecin();
+            Modifier_Medicament mmedi = new Modifier_Medicament();
+            Modifier_Vendeur mv = new Modifier_Vendeur();
+            Supprimer_Client sclt = new Supprimer_Client();
+            Supprimer_Medecin smed = new Supprimer_Medecin();
+            Supprimer_Medicament smedi = new Supprimer_Medicament();
+            Supprimer_Vendeur sv = new Supprimer_Vendeur();
+            aclt.MdiParent = this;
+            amdc.MdiParent = this;
+            amedi.MdiParent = this;
+            ao.MdiParent = this;
+            av.MdiParent = this;
+            mclt.MdiParent = this;
+            mmed.MdiParent = this;
+            mmedi.MdiParent = this;
+            mv.MdiParent = this;
+            sclt.MdiParent = this;
+            smed.MdiParent = this;
+            smedi.MdiParent = this;
+            sv.MdiParent = this;
+            log.Show();
+            log.MdiParent = this;
+            mdiobj = this;
+            this.Height = 750;
+            this.Width = 850;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,84 +79,72 @@ namespace GestionDePharmacie
         {
             Ajouter_Client nclt = new Ajouter_Client();
             nclt.Show();
-            this.Hide();
         }
 
         private void modifierLesInformationsDunClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modifier_Client mdclt = new Modifier_Client();
             mdclt.Show();
-            this.Hide();
         }
 
         private void supprimerUnClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Supprimer_Client sclt = new Supprimer_Client();
             sclt.Show();
-            this.Hide();
         }
 
         private void nouveauMedecinToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajouter_Medecin amdc = new Ajouter_Medecin();
             amdc.Show();
-            this.Hide();
         }
 
         private void modifierLesInformationsDunMedecinToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modifier_Medecin mmdc = new Modifier_Medecin();
             mmdc.Show();
-            this.Hide();
         }
 
         private void supprimerUnMedecinToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Supprimer_Medecin smdc = new Supprimer_Medecin();
             smdc.Show();
-            this.Hide();
         }
 
         private void nouveauVendeurToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajouter_Vendeur avndr = new Ajouter_Vendeur();
             avndr.Show();
-            this.Hide();
         }
 
         private void modifierLesInformationsDunVendeurToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modifier_Vendeur mvndr = new Modifier_Vendeur();
             mvndr.Show();
-            this.Hide();
         }
 
         private void supprimerUnVendeurToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Supprimer_Vendeur svndr = new Supprimer_Vendeur();
             svndr.Show();
-            this.Hide();
         }
 
         private void nouveauMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajouter_Medicament amdc = new Ajouter_Medicament();
             amdc.Show();
-            this.Hide();
         }
 
         private void modifierLesInfrmationsDunMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modifier_Medicament mmdc = new Modifier_Medicament();
             mmdc.Show();
-            this.Hide();
         }
 
         private void supprimerMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Supprimer_Medicament smdc = new Supprimer_Medicament();
             smdc.Show();
-            this.Hide();
         }
 
         private void listeDesMedicamentsToolStripMenuItem_Click(object sender, EventArgs e)

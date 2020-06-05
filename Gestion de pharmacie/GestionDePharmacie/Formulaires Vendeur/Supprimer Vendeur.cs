@@ -64,6 +64,7 @@ namespace GestionDePharmacie.Formulaires_Vendeur
 
             db.SaveChanges();
 
+            MessageBox.Show("le vendeur "+res.Nom + "a etait supprimer avec succees");
             //affichage des valeures du 1er combobox
             var r1 = from v in db.Vendeurs select v;
             comboBox1.DataSource = r1.ToList();

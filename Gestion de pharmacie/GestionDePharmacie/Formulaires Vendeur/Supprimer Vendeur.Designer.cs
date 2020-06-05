@@ -61,8 +61,10 @@
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(668, 277);
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(160, 20);
             this.textBox4.TabIndex = 45;
@@ -117,6 +119,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Location = new System.Drawing.Point(668, 325);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(160, 20);
@@ -124,14 +127,17 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(668, 242);
             this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(160, 20);
             this.textBox3.TabIndex = 39;
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(668, 208);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -140,6 +146,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(668, 173);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;

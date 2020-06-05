@@ -44,12 +44,14 @@ namespace GestionDePharmacie.Formulaires_Client
             db.Clients.Add(clt);
             db.SaveChanges();
 
+            MessageBox.Show("Le client"+clt.Nom + "a etait ajouter avec succees");
+
             button2_Click(sender, e);
         }
 
         private void Ajouter_Client_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

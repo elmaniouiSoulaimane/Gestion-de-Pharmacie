@@ -47,6 +47,7 @@ namespace GestionDePharmacie.Formulaires_Medecin
             //valider le changement
             db.SaveChanges();
 
+            MessageBox.Show("Le medecin" + medecinres.Nom + "a etait modifier avec succees");
             //affichage des valeures du 1er combobox
             var r = from medecin in db.Medecins select medecin;
             comboBox1.DataSource = r.ToList();

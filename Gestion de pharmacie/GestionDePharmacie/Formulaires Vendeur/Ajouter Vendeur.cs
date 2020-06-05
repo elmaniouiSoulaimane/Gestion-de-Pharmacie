@@ -32,6 +32,7 @@ namespace GestionDePharmacie.Formulaires_Vendeur
             db.Vendeurs.Add(v);
             db.SaveChanges();
 
+            MessageBox.Show("Le vendeur "+v.Nom + "a etait ajouter avec succees");
             button2_Click(sender, e);
         }
 

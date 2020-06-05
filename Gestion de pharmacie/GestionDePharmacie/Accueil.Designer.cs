@@ -47,8 +47,8 @@
             this.modifierLesInfrmationsDunMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterOrdonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,7 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.DarkCyan;
+            this.menuStrip1.Enabled = false;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gererVotreClientsToolStripMenuItem,
             this.gererVotreMedecinToolStripMenuItem,
@@ -262,6 +263,16 @@
             this.ordonnanceToolStripMenuItem.Size = new System.Drawing.Size(110, 32);
             this.ordonnanceToolStripMenuItem.Text = "Ordonnance";
             // 
+            // ajouterOrdonnanceToolStripMenuItem
+            // 
+            this.ajouterOrdonnanceToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.ajouterOrdonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ajouterOrdonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
+            this.ajouterOrdonnanceToolStripMenuItem.Name = "ajouterOrdonnanceToolStripMenuItem";
+            this.ajouterOrdonnanceToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.ajouterOrdonnanceToolStripMenuItem.Text = "Ajouter Ordonnance";
+            this.ajouterOrdonnanceToolStripMenuItem.Click += new System.EventHandler(this.ajouterOrdonnanceToolStripMenuItem_Click);
+            // 
             // factureToolStripMenuItem
             // 
             this.factureToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -273,16 +284,6 @@
             this.factureToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
             this.factureToolStripMenuItem.Size = new System.Drawing.Size(76, 32);
             this.factureToolStripMenuItem.Text = "Facture";
-            // 
-            // ajouterOrdonnanceToolStripMenuItem
-            // 
-            this.ajouterOrdonnanceToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
-            this.ajouterOrdonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.ajouterOrdonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
-            this.ajouterOrdonnanceToolStripMenuItem.Name = "ajouterOrdonnanceToolStripMenuItem";
-            this.ajouterOrdonnanceToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
-            this.ajouterOrdonnanceToolStripMenuItem.Text = "Ajouter Ordonnance";
-            this.ajouterOrdonnanceToolStripMenuItem.Click += new System.EventHandler(this.ajouterOrdonnanceToolStripMenuItem_Click);
             // 
             // listeDesMedicamentsToolStripMenuItem
             // 
@@ -303,12 +304,14 @@
             this.ClientSize = new System.Drawing.Size(860, 337);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Accueil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion De Pharmacie";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -318,9 +321,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem gererVotreClientsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nouveauClientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modifierLesInformationsDunClientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem supprimerUnClientToolStripMenuItem;
@@ -340,6 +340,8 @@
         private System.Windows.Forms.ToolStripMenuItem factureToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajouterOrdonnanceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeDesMedicamentsToolStripMenuItem;
+        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.ToolStripMenuItem gererVotreClientsToolStripMenuItem;
     }
 }
 

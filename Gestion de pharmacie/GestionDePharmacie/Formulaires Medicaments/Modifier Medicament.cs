@@ -52,6 +52,7 @@ namespace GestionDePharmacie
             //valider le changement
             db.SaveChanges();
 
+            MessageBox.Show("Le medicament "+res.Designation + " a etait modifier avec succees");
             //affichage des valeures du 1er combobox
             var r = from m in db.Medicaments select m;
             comboBox1.DataSource = r.ToList();
