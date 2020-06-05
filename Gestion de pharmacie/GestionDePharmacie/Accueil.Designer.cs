@@ -48,6 +48,8 @@
             this.supprimerMedicamentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajouterOrdonnanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesMedicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -250,6 +252,8 @@
             // 
             // ordonnanceToolStripMenuItem
             // 
+            this.ordonnanceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ajouterOrdonnanceToolStripMenuItem});
             this.ordonnanceToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ordonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.prescription_icon_icons_com_58843;
@@ -260,6 +264,8 @@
             // 
             // factureToolStripMenuItem
             // 
+            this.factureToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listeDesMedicamentsToolStripMenuItem});
             this.factureToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.factureToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.factureToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.receipt_shopping_icon_icons_com_49849;
@@ -267,6 +273,26 @@
             this.factureToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
             this.factureToolStripMenuItem.Size = new System.Drawing.Size(76, 32);
             this.factureToolStripMenuItem.Text = "Facture";
+            // 
+            // ajouterOrdonnanceToolStripMenuItem
+            // 
+            this.ajouterOrdonnanceToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.ajouterOrdonnanceToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ajouterOrdonnanceToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.add_icon_icons_com_52393;
+            this.ajouterOrdonnanceToolStripMenuItem.Name = "ajouterOrdonnanceToolStripMenuItem";
+            this.ajouterOrdonnanceToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.ajouterOrdonnanceToolStripMenuItem.Text = "Ajouter Ordonnance";
+            this.ajouterOrdonnanceToolStripMenuItem.Click += new System.EventHandler(this.ajouterOrdonnanceToolStripMenuItem_Click);
+            // 
+            // listeDesMedicamentsToolStripMenuItem
+            // 
+            this.listeDesMedicamentsToolStripMenuItem.BackColor = System.Drawing.Color.DarkCyan;
+            this.listeDesMedicamentsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listeDesMedicamentsToolStripMenuItem.Image = global::GestionDePharmacie.Properties.Resources.pills_pot_icon_icons_com_76239;
+            this.listeDesMedicamentsToolStripMenuItem.Name = "listeDesMedicamentsToolStripMenuItem";
+            this.listeDesMedicamentsToolStripMenuItem.Size = new System.Drawing.Size(228, 24);
+            this.listeDesMedicamentsToolStripMenuItem.Text = "Liste des Medicaments";
+            this.listeDesMedicamentsToolStripMenuItem.Click += new System.EventHandler(this.listeDesMedicamentsToolStripMenuItem_Click);
             // 
             // Accueil
             // 
@@ -312,6 +338,8 @@
         private System.Windows.Forms.ToolStripMenuItem supprimerMedicamentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordonnanceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem factureToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajouterOrdonnanceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesMedicamentsToolStripMenuItem;
     }
 }
 

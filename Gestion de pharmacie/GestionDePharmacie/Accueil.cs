@@ -3,6 +3,7 @@ using GestionDePharmacie.Formulaires_Client;
 using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Vendeur;
 using GestionDePharmacie.Formulaires_Medicaments;
+using GestionDePharmacie.Formulaires_Ordonnance;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -122,6 +123,17 @@ namespace GestionDePharmacie
             Supprimer_Medicament smdc = new Supprimer_Medicament();
             smdc.Show();
             this.Hide();
+        }
+
+        private void listeDesMedicamentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ajouterOrdonnanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ajouter_Ordonnance ao = new Ajouter_Ordonnance();
+            ao.Show();
         }
     }
 }

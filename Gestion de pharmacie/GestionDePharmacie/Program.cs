@@ -22,7 +22,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Facture());
+            Application.Run(new Accueil());
         }
 
         private static object Medicament()
