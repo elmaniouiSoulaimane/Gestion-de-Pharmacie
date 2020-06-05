@@ -19,7 +19,7 @@ namespace GestionDePharmacie.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -96,6 +96,16 @@ namespace GestionDePharmacie.Properties {
         internal static System.Drawing.Bitmap caucasian_head_man_person_people_avatar_2859 {
             get {
                 object obj = ResourceManager.GetObject("caucasian_head_man_person_people_avatar_2859", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap closeup_doctor_hold_clipboard_making_notes_write_diagnosis_48369_18603 {
+            get {
+                object obj = ResourceManager.GetObject("closeup-doctor-hold-clipboard-making-notes-write-diagnosis_48369-18603", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

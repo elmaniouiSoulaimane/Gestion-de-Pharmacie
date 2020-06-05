@@ -3,6 +3,7 @@ using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Medicaments;
 using GestionDePharmacie.Formulaires_Vendeur;
 using GestionDePharmacie.Formulaires_Ordonnance;
+using GestionDePharmacie.Factures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace GestionDePharmacie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ajouter_Ordonnance());
+            Application.Run(new Facture());
         }
 
         private static object Medicament()
