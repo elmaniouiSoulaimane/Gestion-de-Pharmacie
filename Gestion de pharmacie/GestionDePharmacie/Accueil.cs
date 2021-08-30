@@ -24,17 +24,10 @@ namespace GestionDePharmacie
         {
             InitializeComponent();
         }
-
-        
-
-
-
-
         MYDBC db = new MYDBC();
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            db.Database.CreateIfNotExists();//il permet 
+            db.Database.CreateIfNotExists();
             menuStrip1.Enabled = false;
             Login_Form log = new Login_Form();
             Ajouter_Client aclt = new Ajouter_Client();
@@ -63,7 +56,6 @@ namespace GestionDePharmacie
             smed.MdiParent = this;
             smedi.MdiParent = this;
             sv.MdiParent = this;
-            log.Show();
             log.MdiParent = this;
             mdiobj = this;
             this.Height = 750;

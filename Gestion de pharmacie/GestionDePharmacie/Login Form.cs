@@ -47,7 +47,7 @@ namespace GestionDePharmacie
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"DATA SOURCE=CYBORG\INSTANCE1;Initial Catalog=Gestion de Pharmacie;INTEGRATED SECURITY=TRUE");
+            SqlConnection con = new SqlConnection(@"DATA SOURCE=DELL-PC-SEM\INSTANCE1;Initial Catalog=Gestion de Pharmacie;INTEGRATED SECURITY=TRUE");
             con.Open();
 
             string log = textBox1.Text;
@@ -62,25 +62,19 @@ namespace GestionDePharmacie
             if (dr.HasRows == true)
             {
                 this.Hide();
-                MessageBox.Show("Bienvenue "+log);
-
+                MessageBox.Show("Bienvenue " + log);
                 //incrementation du nombre de connections du vendeur
                 //cherche d'objet selectionner
-                Vendeur v1 = new Vendeur();
-                v1.Login = log;
-                res = db.Vendeurs.Where(x => x.Login == v1.Login).First();
+                res = db.Vendeurs.Where(x => x.Login == log).First();
                 res.nbCon++;
                 //valider le changement
                 db.SaveChanges();
-
-
-
-
                 //end
+                Accueil accueil = new Accueil();
+                accueil.Show();
                 Accueil.mdiobj.menuStrip1.Enabled = true;
                 Accueil.mdiobj.Height = 376;
                 Accueil.mdiobj.Width = 876;
-               
             }
             else
             {
@@ -88,7 +82,6 @@ namespace GestionDePharmacie
                 textBox1.Clear();
                 textBox2.Clear();
                 textBox1.Focus();
-
             }
 
 
