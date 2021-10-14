@@ -69,6 +69,12 @@
     <Compile Include="Entities\Medicament.cs" />
     <Compile Include="Entities\Ordonnance.cs" />
     <Compile Include="Entities\Vendeur.cs" />
+    <Compile Include="Factures\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Factures\Facture.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +235,10 @@
     <Compile Include="MYDBC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Factures\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Factures\Facture.resx">
       <DependentUpon>Facture.cs</DependentUpon>
     </EmbeddedResource>

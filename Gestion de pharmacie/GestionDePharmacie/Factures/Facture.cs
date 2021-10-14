@@ -19,12 +19,15 @@ namespace GestionDePharmacie.Factures
         MYDBC db = new MYDBC();
         private void Facture_Load(object sender, EventArgs e)
         {
-            ListMedi cr = new ListMedi();
+            /*ListMedi cr = new ListMedi();
             var r = from m in db.Medicaments select m;
             cr.SetDataSource(r.ToList());
             crystalReportViewer1.ReportSource = null; //vider le cr
             crystalReportViewer1.ReportSource = cr; //remplir
-            crystalReportViewer1.RefreshReport(); //actualisation du cr
+            crystalReportViewer1.RefreshReport(); //actualisation du cr*/
+            CrystalReport1 cr1 = new CrystalReport1();
+            crystalReportViewer1.ReportSource = cr1;
+            crystalReportViewer1.Refresh();
         }
     }
 }

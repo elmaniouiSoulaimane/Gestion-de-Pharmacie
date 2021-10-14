@@ -4,6 +4,7 @@ using GestionDePharmacie.Formulaires_Medecin;
 using GestionDePharmacie.Formulaires_Vendeur;
 using GestionDePharmacie.Formulaires_Medicaments;
 using GestionDePharmacie.Formulaires_Ordonnance;
+using GestionDePharmacie.Factures;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,25 +25,26 @@ namespace GestionDePharmacie
         {
             InitializeComponent();
         }
+        Login_Form log = new Login_Form();
+        Ajouter_Client aclt = new Ajouter_Client();
+        Ajouter_Medecin amdc = new Ajouter_Medecin();
+        Ajouter_Medicament amedi = new Ajouter_Medicament();
+        Ajouter_Ordonnance ao = new Ajouter_Ordonnance();
+        Ajouter_Vendeur av = new Ajouter_Vendeur();
+        Modifier_Client mclt = new Modifier_Client();
+        Modifier_Medecin mmed = new Modifier_Medecin();
+        Modifier_Medicament mmedi = new Modifier_Medicament();
+        Modifier_Vendeur mv = new Modifier_Vendeur();
+        Supprimer_Client sclt = new Supprimer_Client();
+        Supprimer_Medecin smed = new Supprimer_Medecin();
+        Supprimer_Medicament smedi = new Supprimer_Medicament();
+        Supprimer_Vendeur sv = new Supprimer_Vendeur();
+        Factures.Facture facture = new Factures.Facture();
         MYDBC db = new MYDBC();
         private void Form1_Load(object sender, EventArgs e)
         {
             db.Database.CreateIfNotExists();
             menuStrip1.Enabled = false;
-            Login_Form log = new Login_Form();
-            Ajouter_Client aclt = new Ajouter_Client();
-            Ajouter_Medecin amdc = new Ajouter_Medecin();
-            Ajouter_Medicament amedi = new Ajouter_Medicament();
-            Ajouter_Ordonnance ao = new Ajouter_Ordonnance();
-            Ajouter_Vendeur av = new Ajouter_Vendeur();
-            Modifier_Client mclt = new Modifier_Client();
-            Modifier_Medecin mmed = new Modifier_Medecin();
-            Modifier_Medicament mmedi = new Modifier_Medicament();
-            Modifier_Vendeur mv = new Modifier_Vendeur();
-            Supprimer_Client sclt = new Supprimer_Client();
-            Supprimer_Medecin smed = new Supprimer_Medecin();
-            Supprimer_Medicament smedi = new Supprimer_Medicament();
-            Supprimer_Vendeur sv = new Supprimer_Vendeur();
             aclt.MdiParent = this;
             amdc.MdiParent = this;
             amedi.MdiParent = this;
@@ -147,8 +149,7 @@ namespace GestionDePharmacie
 
         private void listeDesMedicamentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Facture fm = new Facture();
-            
+            facture.Show();
         }
 
         private void ajouterOrdonnanceToolStripMenuItem_Click(object sender, EventArgs e)
