@@ -36,7 +36,7 @@ namespace GestionDePharmacie.Formulaires_Medecin
 
             db.SaveChanges();
 
-            MessageBox.Show("Le medecin" + medecinres.Nom + "a etait supprimer avec succees");
+            MessageBox.Show("Le medecin " + medecinres.Nom + " a etait supprimer avec succees");
             //affichage des valeures du 1er combobox
             var r1 = from medecin in db.Medecins select medecin;
             comboBox1.DataSource = r1.ToList();

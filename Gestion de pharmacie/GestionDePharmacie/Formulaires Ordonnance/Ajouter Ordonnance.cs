@@ -143,7 +143,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             o.MedID = int.Parse(comboBox2.SelectedValue.ToString());
             Medecin md = db.Medecins.Where(x => x.MedID == o.MedID).First();
             md.ordonnances.Add(o);
-            o.Matricule = 1;
+            o.Matricule = 5;
 
             float TotalFacture = 0;
             int i = 0;
@@ -176,7 +176,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             db.Ordonnances.Add(o);
             db.SaveChanges();
 
-            MessageBox.Show("Votre ordonnance a etait supprimer avec succees");
+            MessageBox.Show("Votre ordonnance a etait ajouter avec succees");
         }
 
         private void button4_Click_1(object sender, EventArgs e)

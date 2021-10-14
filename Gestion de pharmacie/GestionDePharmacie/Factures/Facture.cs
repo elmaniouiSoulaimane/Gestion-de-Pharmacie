@@ -26,6 +26,5 @@ namespace GestionDePharmacie.Factures
             crystalReportViewer1.ReportSource = cr; //remplir
             crystalReportViewer1.RefreshReport(); //actualisation du cr
         }
-        
     }
 }
