@@ -58,7 +58,7 @@
             // textBox3
             // 
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(159, 220);
+            this.textBox3.Location = new System.Drawing.Point(177, 220);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(159, 20);
@@ -68,16 +68,16 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(74, 130);
+            this.label6.Location = new System.Drawing.Point(46, 130);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 28);
+            this.label6.Size = new System.Drawing.Size(128, 28);
             this.label6.TabIndex = 84;
-            this.label6.Text = "Nom :";
+            this.label6.Text = "Last Name :";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(79, 74);
+            this.comboBox1.Location = new System.Drawing.Point(141, 73);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
             this.comboBox1.TabIndex = 83;
@@ -92,7 +92,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 39);
             this.button3.TabIndex = 82;
-            this.button3.Text = "Fermer";
+            this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -105,7 +105,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 42);
             this.button2.TabIndex = 81;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -118,14 +118,14 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 42);
             this.button1.TabIndex = 80;
-            this.button1.Text = "Supprimer";
+            this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(159, 180);
+            this.textBox2.Location = new System.Drawing.Point(177, 180);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(159, 20);
@@ -134,7 +134,7 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(159, 138);
+            this.textBox1.Location = new System.Drawing.Point(177, 138);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(159, 20);
@@ -144,21 +144,21 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(31, 212);
+            this.label7.Location = new System.Drawing.Point(72, 212);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 28);
+            this.label7.Size = new System.Drawing.Size(102, 28);
             this.label7.TabIndex = 77;
-            this.label7.Text = "Addresse :";
+            this.label7.Text = "Address :";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(46, 172);
+            this.label8.Location = new System.Drawing.Point(41, 172);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 28);
+            this.label8.Size = new System.Drawing.Size(133, 28);
             this.label8.TabIndex = 76;
-            this.label8.Text = "Prenom :";
+            this.label8.Text = "First Name :";
             // 
             // label9
             // 
@@ -166,20 +166,20 @@
             this.label9.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(10, 66);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 28);
+            this.label9.Size = new System.Drawing.Size(128, 28);
             this.label9.TabIndex = 75;
-            this.label9.Text = "Nom";
+            this.label9.Text = "Last Name :";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(49, 9);
+            this.label10.Location = new System.Drawing.Point(72, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(278, 39);
+            this.label10.Size = new System.Drawing.Size(212, 39);
             this.label10.TabIndex = 74;
-            this.label10.Text = "Supprimer Client";
+            this.label10.Text = "Delete Client";
             // 
             // Supprimer_Client
             // 
@@ -204,7 +204,7 @@
             this.MaximizeBox = false;
             this.Name = "Supprimer_Client";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Supprimer Client";
+            this.Text = "Delete Client";
             this.Load += new System.EventHandler(this.Supprimer_Client_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

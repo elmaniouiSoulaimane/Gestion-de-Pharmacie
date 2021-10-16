@@ -54,7 +54,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 39);
             this.button3.TabIndex = 27;
-            this.button3.Text = "Fermer";
+            this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -66,7 +66,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 39);
             this.button2.TabIndex = 26;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -78,7 +78,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 39);
             this.button1.TabIndex = 25;
-            this.button1.Text = "Ajouter";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -121,21 +121,21 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(10, 312);
+            this.label6.Location = new System.Drawing.Point(49, 312);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(192, 18);
+            this.label6.Size = new System.Drawing.Size(144, 18);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Date de derniere connexion :";
+            this.label6.Text = "Last time connected :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(44, 261);
+            this.label5.Location = new System.Drawing.Point(79, 261);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 28);
+            this.label5.Size = new System.Drawing.Size(123, 28);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Mot de passe :";
+            this.label5.Text = "Password :";
             // 
             // label4
             // 
@@ -151,21 +151,21 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(98, 170);
+            this.label3.Location = new System.Drawing.Point(63, 170);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 28);
+            this.label3.Size = new System.Drawing.Size(139, 28);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Prenom :";
+            this.label3.Text = "First Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(129, 127);
+            this.label2.Location = new System.Drawing.Point(68, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 28);
+            this.label2.Size = new System.Drawing.Size(134, 28);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Nom :";
+            this.label2.Text = "Last Name :";
             // 
             // label1
             // 
@@ -174,9 +174,9 @@
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(69, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 39);
+            this.label1.Size = new System.Drawing.Size(259, 39);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Nouveau Vendeur";
+            this.label1.Text = "New Pharmacist";
             // 
             // pictureBox1
             // 
@@ -212,7 +212,7 @@
             this.MaximizeBox = false;
             this.Name = "Ajouter_Vendeur";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ajouter Vendeur";
+            this.Text = "Add Pharmacist";
             this.Load += new System.EventHandler(this.Ajouter_Vendeur_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

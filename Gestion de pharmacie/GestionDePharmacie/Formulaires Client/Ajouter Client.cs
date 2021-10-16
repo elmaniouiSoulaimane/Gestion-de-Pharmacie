@@ -44,7 +44,7 @@ namespace GestionDePharmacie.Formulaires_Client
             db.Clients.Add(clt);
             db.SaveChanges();
 
-            MessageBox.Show("Le client "+clt.Nom + " a etait ajouter avec succees");
+            MessageBox.Show("The client "+clt.Nom + " has been added successfuly");
 
             button2_Click(sender, e);
         }
@@ -52,6 +52,11 @@ namespace GestionDePharmacie.Formulaires_Client
         private void Ajouter_Client_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -59,7 +59,7 @@ namespace GestionDePharmacie.Formulaires_Client
             db.Clients.Remove(cltres);
 
             db.SaveChanges();
-            MessageBox.Show("Le client " + cltres.Nom +" a etait supprimer avec succees");
+            MessageBox.Show("The client " + cltres.Nom +" has been deleted successfuly");
             //affichage des valeures du 1er combobox
             var r1 = from clt in db.Clients select clt;
             comboBox1.DataSource = r1.ToList();

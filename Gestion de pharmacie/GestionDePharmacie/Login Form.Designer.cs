@@ -74,7 +74,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 39);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Connecter";
+            this.button1.Text = "Connect";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -87,7 +87,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 39);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -100,7 +100,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(138, 39);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Quitter";
+            this.button3.Text = "Quit";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -118,11 +118,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(137, 477);
+            this.label2.Location = new System.Drawing.Point(179, 471);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 35);
+            this.label2.Size = new System.Drawing.Size(146, 35);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Mot de passe :";
+            this.label2.Text = "Password :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Login_Form
             // 

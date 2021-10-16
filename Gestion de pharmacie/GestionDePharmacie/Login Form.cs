@@ -22,7 +22,6 @@ namespace GestionDePharmacie
         }
         MYDBC db = new MYDBC();
         Vendeur res;
-        Boolean b = true;
         static string Encrypt(string value)
         {
             using (MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider())
@@ -62,7 +61,7 @@ namespace GestionDePharmacie
             if (dr.HasRows == true)
             {
                 this.Hide();
-                MessageBox.Show("Bienvenue " + log);
+                MessageBox.Show("Welcome " + log);
                 //incrementation du nombre de connections du vendeur
                 //cherche d'objet selectionner
                 res = db.Vendeurs.Where(x => x.Login == log).First();
@@ -88,6 +87,11 @@ namespace GestionDePharmacie
         }
 
         private void Login_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

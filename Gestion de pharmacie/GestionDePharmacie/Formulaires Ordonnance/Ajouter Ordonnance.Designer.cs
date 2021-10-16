@@ -53,9 +53,9 @@
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(180, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(337, 39);
+            this.label1.Size = new System.Drawing.Size(274, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nouveau Ordonnance";
+            this.label1.Text = "New Prescription";
             // 
             // label2
             // 
@@ -63,44 +63,44 @@
             this.label2.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(302, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(201, 28);
+            this.label2.Size = new System.Drawing.Size(59, 28);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Date Ordonnance :";
+            this.label2.Text = "Date";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(359, 176);
+            this.label3.Location = new System.Drawing.Point(302, 177);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 28);
+            this.label3.Size = new System.Drawing.Size(216, 28);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Nom Client :";
+            this.label3.Text = "Client\'s Last Name :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(335, 244);
+            this.label4.Location = new System.Drawing.Point(302, 244);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 28);
+            this.label4.Size = new System.Drawing.Size(224, 28);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Nom Medecin :";
+            this.label4.Text = "Doctor\'s Last Name :";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(513, 184);
+            this.comboBox1.Location = new System.Drawing.Point(531, 182);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(143, 21);
+            this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 4;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(513, 252);
+            this.comboBox2.Location = new System.Drawing.Point(531, 252);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(143, 21);
+            this.comboBox2.Size = new System.Drawing.Size(125, 21);
             this.comboBox2.TabIndex = 5;
             // 
             // button1
@@ -132,7 +132,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(111, 48);
             this.button3.TabIndex = 9;
-            this.button3.Text = "Ajouter";
+            this.button3.Text = "Add";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -145,7 +145,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(180, 48);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Reinitialiser";
+            this.button4.Text = "Reset";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
@@ -158,7 +158,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(117, 48);
             this.button5.TabIndex = 11;
-            this.button5.Text = "Fermer";
+            this.button5.Text = "Close";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
@@ -211,7 +211,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Ajouter_Ordonnance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ajouter_Ordonnance";
+            this.Text = "Add Prescription";
             this.Load += new System.EventHandler(this.Ajouter_Ordonnance_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

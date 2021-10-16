@@ -35,7 +35,7 @@ namespace GestionDePharmacie.Formulaires_Medecin
             db.Medecins.Add(medecin);
             db.SaveChanges();
 
-            MessageBox.Show("Le medecin " + medecin.Nom + " a etait ajouter avec succees");
+            MessageBox.Show("The doctor " + medecin.Nom + " has been added successfuly ");
             button2_Click(sender, e);
         }
 

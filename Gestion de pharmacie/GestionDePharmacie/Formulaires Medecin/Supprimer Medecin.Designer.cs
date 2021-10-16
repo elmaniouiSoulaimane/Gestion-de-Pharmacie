@@ -48,10 +48,10 @@
             // textBox3
             // 
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(136, 241);
+            this.textBox3.Location = new System.Drawing.Point(189, 241);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
+            this.textBox3.Size = new System.Drawing.Size(140, 20);
             this.textBox3.TabIndex = 84;
             // 
             // label2
@@ -60,14 +60,14 @@
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(53, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 29);
+            this.label2.Size = new System.Drawing.Size(130, 29);
             this.label2.TabIndex = 83;
-            this.label2.Text = "Nom :";
+            this.label2.Text = "Last Name :";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 99);
+            this.comboBox1.Location = new System.Drawing.Point(136, 98);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(118, 21);
             this.comboBox1.TabIndex = 82;
@@ -82,7 +82,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 33);
             this.button3.TabIndex = 81;
-            this.button3.Text = "Fermer";
+            this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -95,7 +95,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 33);
             this.button2.TabIndex = 80;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -108,57 +108,57 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 33);
             this.button1.TabIndex = 79;
-            this.button1.Text = "Supprimer";
+            this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(136, 203);
+            this.textBox2.Location = new System.Drawing.Point(189, 203);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
+            this.textBox2.Size = new System.Drawing.Size(140, 20);
             this.textBox2.TabIndex = 78;
             // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(136, 162);
+            this.textBox1.Location = new System.Drawing.Point(189, 162);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
+            this.textBox1.Size = new System.Drawing.Size(140, 20);
             this.textBox1.TabIndex = 77;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 232);
+            this.label5.Location = new System.Drawing.Point(77, 232);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 29);
+            this.label5.Size = new System.Drawing.Size(106, 29);
             this.label5.TabIndex = 76;
-            this.label5.Text = "Addresse :";
+            this.label5.Text = "Address :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(26, 194);
+            this.label4.Location = new System.Drawing.Point(47, 194);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 29);
+            this.label4.Size = new System.Drawing.Size(136, 29);
             this.label4.TabIndex = 75;
-            this.label4.Text = "Prenom :";
+            this.label4.Text = "First Name :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(53, 90);
+            this.label3.Location = new System.Drawing.Point(4, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 29);
+            this.label3.Size = new System.Drawing.Size(130, 29);
             this.label3.TabIndex = 74;
-            this.label3.Text = "Nom :";
+            this.label3.Text = "Last Name :";
             // 
             // label1
             // 
@@ -167,9 +167,9 @@
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(22, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(360, 39);
+            this.label1.Size = new System.Drawing.Size(224, 39);
             this.label1.TabIndex = 73;
-            this.label1.Text = "Supprimer un Medecin";
+            this.label1.Text = "Delete Doctor";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
@@ -205,7 +205,7 @@
             this.MaximizeBox = false;
             this.Name = "Supprimer_Medecin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Supprimer Medecin";
+            this.Text = "Delete Doctor";
             this.Load += new System.EventHandler(this.Supprimer_Medecin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

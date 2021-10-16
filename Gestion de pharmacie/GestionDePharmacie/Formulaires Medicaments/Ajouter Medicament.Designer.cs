@@ -53,7 +53,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 47);
             this.button3.TabIndex = 47;
-            this.button3.Text = "Fermer";
+            this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -66,7 +66,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 47);
             this.button2.TabIndex = 46;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -79,7 +79,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 47);
             this.button1.TabIndex = 45;
-            this.button1.Text = "Ajouter";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -117,9 +117,9 @@
             this.label5.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(24, 242);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(204, 28);
+            this.label5.Size = new System.Drawing.Size(201, 28);
             this.label5.TabIndex = 40;
-            this.label5.Text = "Quantite en stock :";
+            this.label5.Text = "Quantity in stock :";
             // 
             // label4
             // 
@@ -127,9 +127,9 @@
             this.label4.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(160, 196);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 28);
+            this.label4.Size = new System.Drawing.Size(77, 28);
             this.label4.TabIndex = 39;
-            this.label4.Text = "Prix :";
+            this.label4.Text = "Price :";
             // 
             // label3
             // 
@@ -158,9 +158,9 @@
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(51, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(338, 39);
+            this.label1.Size = new System.Drawing.Size(256, 39);
             this.label1.TabIndex = 36;
-            this.label1.Text = "Nouveau Medicament";
+            this.label1.Text = "New Medication";
             // 
             // pictureBox1
             // 
@@ -194,7 +194,7 @@
             this.MaximizeBox = false;
             this.Name = "Ajouter_Medicament";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ajouter Medicament";
+            this.Text = "Add Medication";
             this.Load += new System.EventHandler(this.Ajouter_Medicament_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

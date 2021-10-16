@@ -51,7 +51,7 @@ namespace GestionDePharmacie.Formulaires_Medicaments
             db.Medicaments.Add(m);
             db.SaveChanges();
 
-            MessageBox.Show("Le medicament "+m.Designation + " a etait ajouter avec succees");
+            MessageBox.Show("The medication "+m.Designation + " has been added successfuly");
             button2_Click_1(sender, e);
         }
     }

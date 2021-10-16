@@ -176,7 +176,7 @@ namespace GestionDePharmacie.Formulaires_Ordonnance
             db.Ordonnances.Add(o);
             db.SaveChanges();
 
-            MessageBox.Show("Votre ordonnance a etait ajouter avec succees");
+            MessageBox.Show("Your prescription has been added successfuly");
         }
 
         private void button4_Click_1(object sender, EventArgs e)

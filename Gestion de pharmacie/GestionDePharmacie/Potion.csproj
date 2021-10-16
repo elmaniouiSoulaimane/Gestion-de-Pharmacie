@@ -87,6 +87,12 @@
       <DependentUpon>ListMedi.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Factures\Prescriptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factures\Prescriptions.Designer.cs">
+      <DependentUpon>Prescriptions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaires Client\Ajouter Client.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +251,9 @@
     <EmbeddedResource Include="Factures\ListMedi.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>ListMedi.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factures\Prescriptions.resx">
+      <DependentUpon>Prescriptions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaires Client\Ajouter Client.resx">
       <DependentUpon>Ajouter Client.cs</DependentUpon>
@@ -443,6 +452,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconfinder-document03-1622833_121957.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Home Screen Background.jpg" />
+    <None Include="Resources\Home Screen Background1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

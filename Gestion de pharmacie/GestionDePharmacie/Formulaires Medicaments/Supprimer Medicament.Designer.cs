@@ -84,7 +84,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 29);
             this.button3.TabIndex = 61;
-            this.button3.Text = "Fermer";
+            this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -97,7 +97,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 29);
             this.button2.TabIndex = 60;
-            this.button2.Text = "Reinitialiser";
+            this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -110,7 +110,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 59;
-            this.button1.Text = "Supprimer";
+            this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -148,9 +148,9 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(49, 299);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(204, 28);
+            this.label5.Size = new System.Drawing.Size(213, 28);
             this.label5.TabIndex = 55;
-            this.label5.Text = "Quantite en stock :";
+            this.label5.Text = "Quantity in Stocks :";
             // 
             // label4
             // 
@@ -159,9 +159,9 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(185, 254);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 28);
+            this.label4.Size = new System.Drawing.Size(77, 28);
             this.label4.TabIndex = 54;
-            this.label4.Text = "Prix :";
+            this.label4.Text = "Price :";
             // 
             // label3
             // 
@@ -190,11 +190,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(47, 20);
+            this.label1.Location = new System.Drawing.Point(73, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 39);
+            this.label1.Size = new System.Drawing.Size(288, 39);
             this.label1.TabIndex = 51;
-            this.label1.Text = "Supprimer Medicament";
+            this.label1.Text = "Delete Medication";
             // 
             // pictureBox1
             // 
@@ -230,7 +230,7 @@
             this.MaximizeBox = false;
             this.Name = "Supprimer_Medicament";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Supprimer Medicament";
+            this.Text = "Delete Medication";
             this.Load += new System.EventHandler(this.Supprimer_Medicament_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

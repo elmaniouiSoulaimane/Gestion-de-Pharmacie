@@ -65,7 +65,7 @@ namespace GestionDePharmacie.Formulaires_Client
             //valider le changement
             db.SaveChanges();
 
-            MessageBox.Show("Le client " + cltres.Nom + " a etait modifier avec succees");
+            MessageBox.Show("The client " + cltres.Nom + " has been eidted successfuly");
             //affichage des valeures du 1er combobox
             var r = from clt in db.Clients select clt;
             comboBox1.DataSource = r.ToList();

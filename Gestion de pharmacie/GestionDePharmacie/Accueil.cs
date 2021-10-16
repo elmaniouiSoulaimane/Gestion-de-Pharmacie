@@ -40,6 +40,7 @@ namespace GestionDePharmacie
         Supprimer_Medicament smedi = new Supprimer_Medicament();
         Supprimer_Vendeur sv = new Supprimer_Vendeur();
         Factures.Facture facture = new Factures.Facture();
+        Factures.Prescriptions prescriptions = new Factures.Prescriptions();
         MYDBC db = new MYDBC();
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -60,8 +61,6 @@ namespace GestionDePharmacie
             sv.MdiParent = this;
             log.MdiParent = this;
             mdiobj = this;
-            this.Height = 750;
-            this.Width = 850;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -188,6 +187,11 @@ namespace GestionDePharmacie
         {
             Liste_des_ordonnances lo = new Liste_des_ordonnances();
             lo.Show();
+        }
+
+        private void prescriptionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            prescriptions.Show();
         }
     }
 }
