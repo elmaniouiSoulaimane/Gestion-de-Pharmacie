@@ -77,7 +77,7 @@ namespace GestionDePharmacie
             }
             else
             {
-                MessageBox.Show("Le login ou le mot de passe n'est pas correct");
+                MessageBox.Show("Login or password is incorrect");
                 textBox1.Clear();
                 textBox2.Clear();
                 textBox1.Focus();
