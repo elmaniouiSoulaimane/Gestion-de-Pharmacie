@@ -1,6 +1,6 @@
 # Potion-v1.0
 ## Description 📃
-![Logo](https://myoctocat.com/assets/images/base-octocat.svg)
+![Logo](https://github.com/elmaniouiSoulaimane/Potion-v1.0/blob/master/Gestion%20de%20pharmacie/GestionDePharmacie/Resources/add_icon-icons.com_52393.png)
 Windows desktop application for pharmacy business management.
 
 
