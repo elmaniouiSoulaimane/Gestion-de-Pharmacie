@@ -455,6 +455,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Home Screen Background.jpg" />
+    <Content Include="Screenshots and modeling diagrams\Diagrams\Database class diagram gestion de pharmacie.jpg" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\acceuil-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\login-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\modifier docteur-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\nouveau client-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\nouveau medicament-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\nouveau ordonnance-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\receipt1-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\receipt2-min.JPG" />
+    <Content Include="Screenshots and modeling diagrams\Screenshots\supprimmer fournisseur-min.JPG" />
     <None Include="Resources\Home Screen Background1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
